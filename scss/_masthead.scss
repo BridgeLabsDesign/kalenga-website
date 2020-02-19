@@ -4,6 +4,52 @@ nav{
 header{
   height:30vh;
 }
+.bio-row{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.bio-column{
+  display: flex;
+  flex: 0.8;
+}
+.bio-text{
+  width: 60%;
+}
+.bio-contact{
+  display: flex;
+  flex: 0.2;
+  justify-content: flex-end;
+}
+.bio-contact-column{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-now-button, .book-now-button:hover{
+  border: 1px solid;
+  padding: 1vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  font-size: 2.6vh;
+  color: white;
+  background-color: #0024B1;
+  text-decoration: none;
+}
+
+.contact-button, .contact-button:hover{
+  border: 1px solid  #0024B1;
+  padding: 1vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  text-align: center;
+  font-size: 2.6vh;
+  color: #0024B1;
+  background-color:white;
+  text-decoration: none;
+}
+
 .masthead {
   position: relative;
   background-color: $gray-800;
