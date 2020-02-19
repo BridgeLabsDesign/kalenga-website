@@ -1,0 +1,28 @@
+body {
+  @include body-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include body-font;
+  font-weight: 700;
+}
+
+.nav-border{
+  border-bottom:1px solid gainsboro;
+  padding-bottom:3vh;
+}
+
+.page-hyperlink{
+  font-size: 2.5vh;
+  margin:2vh;
+}
+
+//override bootstrap container limits
+.container{
+  max-width: 90vw;
+}
