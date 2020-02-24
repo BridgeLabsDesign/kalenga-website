@@ -35,6 +35,52 @@ h4 {
   max-width: 90vw;
 }
 
+.carousel, .carousel-inner {
+  height: 50vh;
+}
+
+.carousel-caption {
+  top: 10vh;
+  bottom: 0;
+  left: 5%;
+  right: auto;
+  font-size: 3vh;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0 !important;
+  left: auto;
+  transform: rotate(90deg) !important;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 2.5vh;
+  height: 2.5vh;
+  margin-right: 2.5vh;
+  margin-left: 2.5vh;
+  text-indent: -999px;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
 nav {
   height: 20vh;
 }
@@ -97,7 +143,7 @@ header {
   position: relative;
   background-color: #343a40;
   height: 50vh;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/enterprenur-bg.png") no-repeat center center;
   background-size: cover;
 }
 
