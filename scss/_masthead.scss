@@ -54,7 +54,6 @@ header{
   position: relative;
   background-color: $gray-800;
   height:50vh;
-  background: url('../img/enterprenur-bg.png') no-repeat center center;
   @include background-cover;
   .overlay {
     position: absolute;
@@ -65,12 +64,25 @@ header{
     left: 0;
     opacity: 0.3;
   }
+  .arrow{
+    width:6vh;
+    height:6vh;
+    margin-left:3vh;
+    margin-top:1vh;
+  }
   h1 {
-    font-size: 2rem;
+    font-size:6vh;
   }
   @media (min-width: 768px) {
     h1 {
-      font-size: 3rem;
+      font-size:8vh;
+      font-weight:500;
+    }
+    .arrow{
+      width:6vh;
+      height:6vh;
+      margin-left:3vh;
+      margin-top:2vh;
     }
   }
 }
