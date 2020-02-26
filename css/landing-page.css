@@ -5,13 +5,13 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Avenir";
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Avenir";
   font-weight: 700;
 }
 
@@ -29,6 +29,7 @@ h4 {
   font-size: 2.5vh;
   margin: 2vh;
   cursor: pointer;
+  font-size: medium;
 }
 
 .container {
@@ -110,6 +111,7 @@ header {
 
 .bio-text {
   width: 60%;
+  font-size: medium;
 }
 
 .bio-contact {

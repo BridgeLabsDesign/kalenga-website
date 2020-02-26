@@ -10,4 +10,11 @@
 // Font Mixins
 @mixin body-font {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
 }
+
+@mixin body-font {
+  font-family: "Avenir";
+  }
+  
+  
