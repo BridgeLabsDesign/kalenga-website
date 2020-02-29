@@ -32,6 +32,7 @@ header{
 
 .social-icon{
   margin:1vh;
+  height:3vh;
   cursor:pointer;
 }
 
@@ -50,9 +51,16 @@ header{
   text-decoration: none;
 }
 
+.keynote-container{
+  margin-top:2vh;
+  cursor:pointer;
+}
+
 .keynote-text{
   font-size: 2vh;
 }
+
+
 .arrow-keynote{
   width:4vh;
 }
