@@ -228,21 +228,6 @@ header {
   cursor: pointer;
 }
 
-.home-book-now-button, .home-book-now-button:hover {
-  border: 2px solid;
-  padding: 1vh;
-  text-align: center;
-  padding-left: 4vh;
-  padding-right: 4vh;
-  font-size: 2.6vh;
-  margin-bottom: 1vh;
-  margin-left: 1vh;
-  margin-right: 1vh;
-  color: white;
-  background-color: #0024B1;
-  text-decoration: none;
-}
-
 .keynote-container {
   margin-left: 2vh;
   margin-top: 2vh;
@@ -262,11 +247,41 @@ header {
   margin-right: 1vh;
 }
 
+.home-book-now-button, .home-book-now-button:hover {
+  border: 2px solid;
+  padding: 0.5vh;
+  text-align: center;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  font-size: 2.6vh;
+  margin-bottom: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  color: white;
+  background-color: #0024B1;
+  text-decoration: none;
+}
+
 .home-contact-button, .home-contact-button:hover {
   border: 2px solid  #0024B1;
-  padding: 1vh;
-  padding-left: 5.5vh;
-  padding-right: 5.5vh;
+  padding: 0.5vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-bottom: 1vh;
+  text-align: center;
+  font-size: 2.6vh;
+  color: #0024B1;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.home-buy-book-button, .home-buy-book-button:hover {
+  border: 2px solid  #0024B1;
+  padding: 0.5vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
   margin-left: 1vh;
   margin-right: 1vh;
   text-align: center;
