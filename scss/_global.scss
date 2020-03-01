@@ -15,6 +15,16 @@ h4 {
   font-size:2.5vh;
 }
 
+.white-text{
+  color:white;
+}
+
+
+a, a:hover{
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 .nav-border{
   border-bottom:1px solid gainsboro;
@@ -52,6 +62,7 @@ h4 {
   cursor:pointer;
 }
 
+//social icons in masthead
 .social-row{
   display:flex;
   flex-direction: row;
@@ -64,16 +75,9 @@ h4 {
   flex:0.7;
 }
 
-.keynote-column{
-  display:flex;
-  flex-direction: row;
-  flex:0.3;
-  justify-content: flex-end;
-}
-
 .logo{width:25vh;}
 
-
+//carousel dot indicators
 .carousel-indicators {
   position: absolute;
     right: 0;
@@ -108,6 +112,80 @@ h4 {
   opacity: .5;
   transition: opacity .6s ease;
 }
+
+//about page specific classes
+.about-bg{
+  background-image: url("../img/about-bg.png");
+}
+
+.about-masthead{
+  background-size: cover;
+  background-position-y: -5vh;
+  background-repeat: no-repeat;
+  height:35vh;
+  position: relative;
+}
+
+.about-text-container{
+  height:45vh;
+}
+
+.about-masthead-text{
+  display: flex;
+  flex: 0.5;
+  position: absolute;
+  top: 8vh;
+  left: 5vw;
+}
+
+.about-masthead-buttons{
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  top: 5vh; //half of height in masthead text, to align to the middle - well just a little off cause text and button aren't the same dimensions
+  position: absolute;
+  right: 5vw;
+}
+
+.about-text{
+  width: 60%;
+  margin-top:5vh;
+}
+
+.profile-link, .profile-link:hover{
+  color: #0024B1 !important;
+}
+
+.book-now-button, .book-now-button:hover{
+  border: 2px solid  #CDCDCD;
+  padding: 1vh;
+  text-align: center;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  font-size: 2.6vh;
+  margin-bottom:1vh;
+  margin-left:1vh;
+  margin-right:1vh;
+  color: #0024B1;
+  background-color: #CDCDCD;
+  text-decoration: none;
+}
+
+.contact-button, .contact-button:hover, .buy-book-button,.buy-book-button:hover{
+  border: 2px solid  #CDCDCD;
+  padding: 1vh;
+  text-align: center;
+  padding-left: 4vh;
+  padding-right: 4vh;
+  font-size: 2.6vh;
+  margin-bottom:1vh;
+  margin-left:1vh;
+  margin-right:1vh;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 
 
