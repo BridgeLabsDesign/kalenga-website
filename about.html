@@ -19,10 +19,22 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
     type="text/css">
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
 
 </head>
+
+<script>
+  $(document).ready(function () {
+    $(".book-link").hover(function () {
+      $(".book-container").fadeIn(1000);
+    });
+  });
+</script>
 
 <body>
 
@@ -67,7 +79,8 @@
             As CEO and Co-Founder of Bridge Labs, Musa is responsible for managing the business optimally such that it
             develops technology solutions for small, medium and large organizations operating in emerging markets.
             <br /><br />
-            Recently, Musa also published an autobiography,  which details his remarkable entrepreneurial journey. Based
+            Recently, Musa also published an autobiography, <a class="book-link">Ladders and Trampolines</a> which
+            details his remarkable entrepreneurial journey. Based
             on the metaphor of being able to either bounce up to an elevated perspective using a trampoline, versus the
             time it takes to climb a ladder, Ladders and Trampolines gives a unique insight into Musa’s expansive life
             as a young African entrepreneur.
@@ -77,15 +90,16 @@
             <a class="profile-link">Download my profile.</a>
           </div>
         </div>
+        <div class="book-container embed-responsive embed-responsive-16by9">
+          <iframe allowfullscreen class="embed-responsive-item" frameBorder="0"
+            src="https://read.amazon.com/kp/card?asin=B07SRGS3GD&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_kiwoEbH10TB5F&tag=httpwwwjimmyh-20"></iframe>
+        </div>
       </div>
     </div>
   </section>
 
 
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

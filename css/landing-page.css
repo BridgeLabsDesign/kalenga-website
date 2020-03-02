@@ -39,7 +39,6 @@ a, a:hover {
   font-size: 2.5vh;
   margin: 2vh;
   cursor: pointer;
-  font-size: medium;
 }
 
 .container {
@@ -152,6 +151,20 @@ a, a:hover {
 
 .profile-link, .profile-link:hover {
   color: #0024B1 !important;
+}
+
+.book-link, .book-link:hover {
+  color: #0024B1 !important;
+  text-decoration: underline !important;
+}
+
+.book-container {
+  display: none;
+}
+
+.embed-responsive {
+  flex: 0.2;
+  margin-top: 5vh;
 }
 
 .book-now-button, .book-now-button:hover {
