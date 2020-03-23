@@ -1,7 +1,25 @@
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
+  padding-top: 10vh !important;
   p {
+    color:black;
     margin-bottom: 5rem;
   }
+  .about-img{
+    height: 50vh;
+    width: auto;
+    float: right;
+  }
+  .about-text{
+    margin-top: 5vh;
+  }
+  .ellipse-container {
+    position: relative;    
+    color: black;
+  }
+  /* Top right text */
+.top-right {
+  position: absolute;
+  top: 2vh;
+  right: 6vh;
+}
 }

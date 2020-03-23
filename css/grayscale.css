@@ -161,12 +161,34 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 10vh !important;
+  /* Top right text */
 }
 
 .about-section p {
+  color: black;
   margin-bottom: 5rem;
+}
+
+.about-section .about-img {
+  height: 50vh;
+  width: auto;
+  float: right;
+}
+
+.about-section .about-text {
+  margin-top: 5vh;
+}
+
+.about-section .ellipse-container {
+  position: relative;
+  color: black;
+}
+
+.about-section .top-right {
+  position: absolute;
+  top: 2vh;
+  right: 6vh;
 }
 
 .projects-section {
@@ -265,7 +287,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: Lora;
   letter-spacing: 0.0625em;
   font-size: 2.5vh;
 }
