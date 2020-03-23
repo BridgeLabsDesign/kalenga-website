@@ -1,0 +1,48 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'navbar.scss';
+@import 'masthead.scss';
+@import 'buttons.scss';
+@import 'landing.scss';
+@import 'about.scss';
+@import 'projects.scss';
+@import 'signup.scss';
+@import 'contact.scss';
+
+body {
+  font-family: 'Nunito';
+  letter-spacing: 0.0625em;
+  font-size: 2.5vh;
+}
+.musa-logo{
+  width:25vh;
+}
+.container{
+  max-width:100%;
+  padding: 5vh;
+}
+
+a {
+  color: $primary;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 20%);
+  }
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+footer {
+  padding: 5rem 0;
+}

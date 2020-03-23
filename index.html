@@ -15,120 +15,247 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
-    type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/grayscale.min.css" rel="stylesheet">
 
 </head>
 
-<body>
-
+<body id="page-top" class="landing-page">
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
-    <div class="container nav-border">
-      <a class="navbar-brand" href="/"><img class="logo" src="../img/musa-logo.png"></a>
-      <div>
-        <a class="page-hyperlink" href="./about.html">About</a>
-        <a class="page-hyperlink">Speaking</a>
-        <a class="page-hyperlink">Writing</a>
-        <a class="page-hyperlink">Thought Leadership</a>
-        <a class="page-hyperlink">Contact</a>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img class="musa-logo" src='../img/logo.png' />
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Speaking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Writing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Thought Leadership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Keynote Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
 
-
-  <!-- Icons Grid -->
-  <header class="bg-light">
-    <div class="container">
-      <div class="bio-row">
-        <div class="bio-column">
-          <h4 class="bio-text">
-            Musa is an author, marketer, brand communication specialist,
-            writer and entrepreneur based in Johannesburg, South Africa.
-            His passions are African emerging markets, changing the communities
-            we live in and inspiring the youth through technology.
-          </h4>
-          <div class="social-row">
-            <div class="social-column">
-              <img class="social-icon" src="../img/twitter.png" alt="First slide">
-              <img class="social-icon" src="../img/instagram.png" alt="First slide">
-              <img class="social-icon" src="../img/facebook.png" alt="First slide">
-              <img class="social-icon" src="../img/linkedin.png" alt="First slide">
-            </div>
-          </div>
+  <!-- Header -->
+  <header class="masthead container">
+    <div style="bottom: 0; position: absolute;">
+      <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
+        <div style="display: flex;flex: 0.6;flex-direction: row;">
+          <p style="color:white">
+            Lourem ipsum lourem ipsum Lourem ipsum lourem ipsum
+            Lourem ipsum lourem ipsum Lourem ipsum
+            lourem ipsum Lourem
+            ipsum lourem ipsum Lourem ipsum lourem ipsum Lourem ipsum lourem ipsum </p>
         </div>
-        <div class="bio-contact">
-          <div class="bio-contact-column">
-            <a class="home-book-now-button" href="#">Book now</a>
-            <a class="home-contact-button" href="#">Contact</a>
-            <a class="home-buy-book-button" href="#">Buy book</a>
-          </div>
+        <div style="display: flex;flex-direction: row;flex: 0.4;justify-content: flex-end;">
+          <img style="width:30vh; height:30vh;" src="img/bg-masthead.jpg" alt="">
+          <img style="width:30vh; height:30vh;" src="img/bg-masthead.jpg" alt="">
         </div>
+      </div>
+      <div style="display: flex;flex-direction: row;flex: 1;justify-content: flex-end;">
+        <img style="width:30vh; height:30vh;" src="img/bg-masthead.jpg" alt="">
+        <img style="width:30vh; height:30vh;" src="img/bg-masthead.jpg" alt="">
+        <img style="width:30vh; height:30vh;" src="img/bg-masthead.jpg" alt="">
+        <img style="width:30vh; height:30vh;" src="img/bg-masthead.jpg" alt="">
       </div>
     </div>
   </header>
 
-  <!-- Masthead -->
-  <section class="masthead text-white text-center">
-    <div class="overlay"></div>
-    <!--Carousel Wrapper-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-2" data-slide-to="2"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="view">
-            <img class="d-block w-100" src="../img/entrepreneur-bg.png" alt="First slide">
-            <div class="mask rgba-black-light"></div>
-          </div>
-          <div class="carousel-caption">
-            <h1 class="h1-responsive">Entrepreneur</h1>
-            <img class="arrow" src="../img/arrow.png">
-          </div>
+  <!-- About Section -->
+  <section id="about" class="about-section text-center container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
+          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right
+            now, simply download the template on
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open
+            source, and you can use it for any purpose, personal or commercial.</p>
         </div>
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="../img/keynote-bg.png" alt="Second slide">
-            <div class="mask rgba-black-strong"></div>
-          </div>
-          <div class="carousel-caption">
-            <h1 class="h1-responsive">Keynote Speaker</h1>
-            <img class="arrow" src="../img/arrow.png">
-          </div>
+      </div>
+      <img src="img/ipad.png" class="img-fluid" alt="">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light container">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
         </div>
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100" src="../img/author-bg.png" alt="Third slide">
-            <div class="mask rgba-black-slight"></div>
-          </div>
-          <div class="carousel-caption">
-            <h1 class="h1-responsive">Author</h1>
-            <img class="arrow" src="../img/arrow.png">
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Shoreline</h4>
+            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any
+              project - even commercial projects! Download it, customize it, and publish your website!</p>
           </div>
         </div>
       </div>
-      <!--/.Slides-->
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Misty</h4>
+                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
+                  along with a description.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Mountains</h4>
+                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
+                  sections work well responsively as well, try this theme on a small screen!</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <!--/.Carousel Wrapper-->
   </section>
 
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
 
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
+              placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black container">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">hello@yourdomain.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (555) 902-8832</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
 
 </body>
 
