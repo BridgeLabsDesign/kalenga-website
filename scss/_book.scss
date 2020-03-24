@@ -1,0 +1,104 @@
+.book-section {
+  padding-top: 10vh !important;
+  p {
+    color:black;
+    margin-bottom: 5rem;
+  }
+  .book-img{
+    height: 50vh;
+    width: auto;
+    float: left;
+  }
+  .book-text{
+    font-size: 3vh;
+  }
+  /* Top right text */
+.top-right {
+  position: absolute;
+  top: 2vh;
+  right: 6vh;
+}
+
+.testimonial-text{
+  font-family: 'Roboto', sans-serif;
+}
+
+.buy-button{
+  margin-top:2.5vh;
+  margin-bottom:2.5vh;
+}
+
+.carousel .item {
+	color: #999;
+	overflow: hidden;
+    min-height: 120px;
+  font-size: 13px;
+
+}
+.carousel .media {
+	position: relative;
+	padding: 0 0 0 20px;
+}
+.carousel .media img {
+	width: 75px;
+	height: 75px;
+	display: block;
+	border-radius: 50%;
+}
+
+.carousel .testimonial {
+    color: #808080;
+    position: relative;
+    padding: 15px;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+	margin-bottom: 15px;
+}
+.carousel .testimonial::after {
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: block;
+	background: #f1f1f1;
+	border: 1px solid #efefef;
+	border-width: 0 0 1px 1px;
+	position: absolute;
+	bottom: -8px;
+	left: 46px;
+	transform: rotateZ(-46deg);
+}
+.carousel .star-rating li {
+	padding: 0 2px;
+}
+.carousel .star-rating i {
+	font-size: 16px;
+	color: #ffdc12;
+}
+.carousel .overview {
+	padding: 3px 0 0 15px;
+}
+.carousel .overview .details {
+	padding: 5px 0 8px;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color:black;
+}
+
+.carousel-indicators{
+  right:unset;
+  margin: unset;
+}
+
+.carousel-indicators li {	
+    background: black;
+    border-top:unset;
+    border-bottom:unset;
+}
+.carousel-indicators li.active {
+	color: #fff;
+    background:black;  
+}
+
+}

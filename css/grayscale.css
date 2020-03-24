@@ -222,6 +222,122 @@
   }
 }
 
+.book-section {
+  padding-top: 10vh !important;
+  /* Top right text */
+}
+
+.book-section p {
+  color: black;
+  margin-bottom: 5rem;
+}
+
+.book-section .book-img {
+  height: 50vh;
+  width: auto;
+  float: left;
+}
+
+.book-section .book-text {
+  font-size: 3vh;
+}
+
+.book-section .top-right {
+  position: absolute;
+  top: 2vh;
+  right: 6vh;
+}
+
+.book-section .testimonial-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.book-section .buy-button {
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
+
+.book-section .carousel .item {
+  color: #999;
+  overflow: hidden;
+  min-height: 120px;
+  font-size: 13px;
+}
+
+.book-section .carousel .media {
+  position: relative;
+  padding: 0 0 0 20px;
+}
+
+.book-section .carousel .media img {
+  width: 75px;
+  height: 75px;
+  display: block;
+  border-radius: 50%;
+}
+
+.book-section .carousel .testimonial {
+  color: #808080;
+  position: relative;
+  padding: 15px;
+  background: #f1f1f1;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.book-section .carousel .testimonial::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: block;
+  background: #f1f1f1;
+  border: 1px solid #efefef;
+  border-width: 0 0 1px 1px;
+  position: absolute;
+  bottom: -8px;
+  left: 46px;
+  transform: rotateZ(-46deg);
+}
+
+.book-section .carousel .star-rating li {
+  padding: 0 2px;
+}
+
+.book-section .carousel .star-rating i {
+  font-size: 16px;
+  color: #ffdc12;
+}
+
+.book-section .carousel .overview {
+  padding: 3px 0 0 15px;
+}
+
+.book-section .carousel .overview .details {
+  padding: 5px 0 8px;
+}
+
+.book-section .carousel .overview b {
+  text-transform: uppercase;
+  color: black;
+}
+
+.book-section .carousel-indicators {
+  right: unset;
+  margin: unset;
+}
+
+.book-section .carousel-indicators li {
+  background: black;
+  border-top: unset;
+  border-bottom: unset;
+}
+
+.book-section .carousel-indicators li.active {
+  color: #fff;
+  background: black;
+}
+
 .signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
@@ -299,6 +415,17 @@ body {
 .container {
   max-width: 100%;
   padding: 5vh;
+}
+
+.button {
+  border: 2px solid #0024B1;
+  background-color: white;
+  color: #0024B1;
+  padding: 7px 28px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Roboto;
+  cursor: pointer;
 }
 
 a {
