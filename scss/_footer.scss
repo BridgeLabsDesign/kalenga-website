@@ -1,0 +1,51 @@
+#mainFooter {
+  min-height: 56px;
+  background: #0024B1;
+  font-family: Lora;
+  padding: 3vh;
+  .footer-toggler {
+    font-size: 80%;
+    color: $primary;
+    border: 1px solid $primary;
+    &:focus {
+      outline: none;
+    }
+  }
+  .footer-container{
+    display: flex;
+  }
+  .footer-brand {
+    color: $black;
+    font-weight: 700;
+  }
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    .footer-item {
+      &:hover {
+        color: fade(white, 80%);
+        outline: none;
+        background-color: transparent;
+      }
+      &:active,
+      &:focus {
+        outline: none;
+        background-color: transparent;
+      }
+    }
+  }
+  .footer-link {
+    padding-right: .5rem;
+    font-size: 1.3vw;
+    padding-left: .5rem;
+    transition: none;
+    color: white;
+    &:hover {
+      color: fade-out($white, .25);
+    }
+    &:active {
+      color: white;
+    }
+  }
+  
+}

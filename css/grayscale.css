@@ -79,6 +79,64 @@
   }
 }
 
+#mainFooter {
+  min-height: 56px;
+  background: #0024B1;
+  font-family: Lora;
+  padding: 3vh;
+}
+
+#mainFooter .footer-toggler {
+  font-size: 80%;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+}
+
+#mainFooter .footer-toggler:focus {
+  outline: none;
+}
+
+#mainFooter .footer-container {
+  display: flex;
+}
+
+#mainFooter .footer-brand {
+  color: #161616;
+  font-weight: 700;
+}
+
+#mainFooter .footer-nav {
+  list-style: none;
+  display: flex;
+}
+
+#mainFooter .footer-nav .footer-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainFooter .footer-nav .footer-item:active, #mainFooter .footer-nav .footer-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+#mainFooter .footer-link {
+  padding-right: .5rem;
+  font-size: 1.3vw;
+  padding-left: .5rem;
+  transition: none;
+  color: white;
+}
+
+#mainFooter .footer-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#mainFooter .footer-link:active {
+  color: white;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -165,6 +223,15 @@
 
 .landing-page {
   color: black;
+}
+
+.landing-page .section-header-text {
+  font-size: 5vh;
+  line-height: 6vh;
+}
+
+.landing-page .section-header-subtext {
+  margin-top: 2vh;
 }
 
 .about-section {
@@ -456,6 +523,6 @@ a:focus, a:hover {
   color: #64a19d !important;
 }
 
-footer {
-  padding: 5rem 0;
+.footer {
+  padding: 3vh 0;
 }
