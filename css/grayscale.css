@@ -137,13 +137,20 @@
   color: white;
 }
 
+.home-bg {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.png");
+}
+
+.speaking-bg {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking.png");
+}
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -489,6 +496,25 @@ body {
 .container {
   max-width: 100%;
   padding: 5vh;
+}
+
+.card-header {
+  background-color: white;
+  border: 0;
+}
+
+.btn {
+  box-shadow: none !important;
+  padding: none !important;
+  text-transform: none;
+  letter-spacing: 0;
+  font-family: inherit;
+}
+
+.card {
+  border: 0;
+  border-bottom: 1px solid black !important;
+  border-radius: 0 !important;
 }
 
 .button {

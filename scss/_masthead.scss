@@ -1,10 +1,15 @@
+.home-bg{
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-masthead.png');
+}
+.speaking-bg{
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-speaking.png');
+}
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/bg-masthead.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
