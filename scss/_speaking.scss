@@ -1,0 +1,40 @@
+.speaking-page {
+  color:black;
+  .section-header-text{
+    font-size: 5vh;
+    line-height: 6vh;
+  }
+  .section-header-subtext{
+    margin-top:2vh;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  .centered {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    line-height: 1.2vw;
+  }
+
+  .keynotetext{
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  .subtext{
+    font-size: 1.2vw;
+  }
+
+}
+

@@ -241,6 +241,50 @@
   margin-top: 2vh;
 }
 
+.speaking-page {
+  color: black;
+}
+
+.speaking-page .section-header-text {
+  font-size: 5vh;
+  line-height: 6vh;
+}
+
+.speaking-page .section-header-subtext {
+  margin-top: 2vh;
+}
+
+.speaking-page .image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.speaking-page .top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.speaking-page .centered {
+  text-align: left;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  line-height: 1.2vw;
+}
+
+.speaking-page .keynotetext {
+  font-size: 2vw;
+  line-height: 2vw;
+}
+
+.speaking-page .subtext {
+  font-size: 1.2vw;
+}
+
 .about-section {
   padding-top: 10vh !important;
   /* Top right text */
