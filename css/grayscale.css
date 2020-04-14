@@ -272,7 +272,7 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 75%;
   line-height: 1.2vw;
 }
 
@@ -283,6 +283,25 @@
 
 .speaking-page .subtext {
   font-size: 1.2vw;
+}
+
+.speaking-page .keynote-footer-section {
+  background: url(../img/keynote-footer.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.speaking-page .youtube {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.speaking-page .keynote-footer-text {
+  margin: 20vh;
+  margin-left: 0;
+  color: white;
+  font-size: 3vh;
 }
 
 .about-section {
@@ -545,6 +564,17 @@ body {
 .card-header {
   background-color: white;
   border: 0;
+}
+
+.btn-outline-primary {
+  border-color: #007bff !important;
+  border: 2px solid;
+  font-family: Roboto !important;
+  font-weight: 500;
+  font-size: 2.5vh;
+  padding: 1vh;
+  padding-left: 6vh;
+  padding-right: 6vh;
 }
 
 .btn {

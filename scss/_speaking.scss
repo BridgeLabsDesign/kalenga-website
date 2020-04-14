@@ -23,7 +23,7 @@
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width:80%;
+    width:75%;
     line-height: 1.2vw;
   }
 
@@ -34,6 +34,25 @@
 
   .subtext{
     font-size: 1.2vw;
+  }
+
+  .keynote-footer-section{
+    background:url(../img/keynote-footer.png);
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  }
+
+  .youtube{
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .keynote-footer-text{
+    margin: 20vh;
+    margin-left: 0;
+    color:white;
+    font-size: 3vh;
   }
 
 }
