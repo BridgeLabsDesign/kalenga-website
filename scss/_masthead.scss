@@ -4,6 +4,10 @@
 .speaking-bg{
   background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-speaking.png');
 }
+.thoughtleadership-bg{
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-thoughtleadership.png');
+}
+
 .masthead {
   position: relative;
   width: 100%;

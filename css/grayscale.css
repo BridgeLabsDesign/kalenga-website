@@ -145,6 +145,10 @@
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking.png");
 }
 
+.thoughtleadership-bg {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-thoughtleadership.png");
+}
+
 .masthead {
   position: relative;
   width: 100%;
