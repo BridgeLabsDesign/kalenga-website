@@ -1,0 +1,138 @@
+.social-grid {
+/* quick grid */
+scale:90%;
+.container {
+  width: 93%;
+  margin: auto;
+}
+
+.filter-row{
+  text-align:center;
+  margin-bottom:2vh;
+}
+
+.social-icons{
+  width: 6vh;
+  height: 6vh;
+}
+
+.filter-item{
+  font-size:3.5vh;
+  padding:3vh;
+  color: black;
+  cursor:pointer;
+}
+
+.filter-item:hover{
+      text-decoration:underline;
+}
+
+.title-subtext {
+  margin-top:1vh !important;
+  color: white !important;
+  font-size: 2.5vh !important;
+}
+
+.social-row{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.card-title{
+  font-size:3.5vh;
+}
+
+.avatar-col
+{
+  display: flex;
+  flex-direction: row;
+  flex: 0.8;
+  justify-content: space-between;
+}
+
+.card-subtext{
+  font-size: 2vh;
+}
+
+.social-icon-container{
+  display: flex;
+  flex-direction: row;
+  flex: 0.2;
+  justify-content: flex-end;
+}
+
+.social-text-col{  
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+}
+
+
+
+.social-avatar{
+  width: 6vh;
+  height: 6vh;
+}
+
+/* Bootstrap-style columns */
+.column {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  width: 33.333%;
+  padding-left: 8px;
+  padding-right: 8px;
+  
+  /* Space between tiles */
+  margin-top: 8px;
+}
+
+.col-span {
+  width: 50%;
+}
+
+.my-sizer-element {
+  width: 8.33333%;
+}
+
+/* default styles so shuffle doesn't have to set them (it will if they're missing) */
+.my-shuffle {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-body{
+  background: #F5F5F5;
+}
+
+
+
+img {
+  display: block;
+  width: 100%;
+  
+  max-width: none;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Small reset */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+figure:nth-child(2n){
+  margin-bottom:30px;
+} 
+figure:nth-child(2n+1){
+  margin-top:30px;
+} 
+}

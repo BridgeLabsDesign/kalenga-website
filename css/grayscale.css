@@ -339,6 +339,142 @@
   right: 6vh;
 }
 
+.social-grid {
+  /* quick grid */
+  scale: 90%;
+  /* Bootstrap-style columns */
+  /* default styles so shuffle doesn't have to set them (it will if they're missing) */
+  /* Small reset */
+}
+
+.social-grid .container {
+  width: 93%;
+  margin: auto;
+}
+
+.social-grid .filter-row {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.social-grid .social-icons {
+  width: 6vh;
+  height: 6vh;
+}
+
+.social-grid .filter-item {
+  font-size: 3.5vh;
+  padding: 3vh;
+  color: black;
+  cursor: pointer;
+}
+
+.social-grid .filter-item:hover {
+  text-decoration: underline;
+}
+
+.social-grid .title-subtext {
+  margin-top: 1vh !important;
+  color: white !important;
+  font-size: 2.5vh !important;
+}
+
+.social-grid .social-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.social-grid .card-title {
+  font-size: 3.5vh;
+}
+
+.social-grid .avatar-col {
+  display: flex;
+  flex-direction: row;
+  flex: 0.8;
+  justify-content: space-between;
+}
+
+.social-grid .card-subtext {
+  font-size: 2vh;
+}
+
+.social-grid .social-icon-container {
+  display: flex;
+  flex-direction: row;
+  flex: 0.2;
+  justify-content: flex-end;
+}
+
+.social-grid .social-text-col {
+  display: flex;
+  flex-direction: column;
+  flex: 0.9;
+}
+
+.social-grid .social-avatar {
+  width: 6vh;
+  height: 6vh;
+}
+
+.social-grid .column {
+  position: relative;
+  float: left;
+  min-height: 1px;
+  width: 33.333%;
+  padding-left: 8px;
+  padding-right: 8px;
+  /* Space between tiles */
+  margin-top: 8px;
+}
+
+.social-grid .col-span {
+  width: 50%;
+}
+
+.social-grid .my-sizer-element {
+  width: 8.33333%;
+}
+
+.social-grid .my-shuffle {
+  position: relative;
+  overflow: hidden;
+}
+
+.social-grid .card-body {
+  background: #F5F5F5;
+}
+
+.social-grid img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.social-grid *,
+.social-grid ::before,
+.social-grid ::after {
+  box-sizing: border-box;
+}
+
+.social-grid figure {
+  margin: 0;
+  padding: 0;
+}
+
+.social-grid figure:nth-child(2n) {
+  margin-bottom: 30px;
+}
+
+.social-grid figure:nth-child(2n+1) {
+  margin-top: 30px;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
