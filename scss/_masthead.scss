@@ -7,6 +7,9 @@
 .thoughtleadership-bg{
   background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-thoughtleadership.png');
 }
+.keynote-bg{
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-keynote.png');
+}
 
 .masthead {
   position: relative;
