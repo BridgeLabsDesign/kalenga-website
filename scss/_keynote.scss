@@ -1,0 +1,119 @@
+.keynote-page {
+  color:black;
+  .section-header-text{
+    font-size: 5vh;
+    line-height: 6vh;
+  }
+  .section-header-subtext{
+    margin-top:2vh;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  .feedback-btn-row{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10vh;
+  }
+
+  .feedback-text{
+    height: 3vh;
+    margin-left:2vh;
+    margin-top:1vh;
+  }
+
+  .feedback-btn{
+    background-color: #0024B1;
+    color:white;
+    border-color: #0024B1 !important;
+    border: 2px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    font-family: Roboto !important;
+    font-weight: 500;
+    font-size: 2.5vh;
+    padding: 1vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+  }
+
+  .keynote-text{
+    font-size: 4vh;
+    line-height: 4vh;
+  }
+
+  .keynote-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .keynote-img{
+    display:flex;
+    flex:0.3;
+    justify-content: flex-end;
+  }
+
+  .keynote-text-container{
+    display:flex;
+    flex:0.4;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .centered {
+    text-align: left;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:75%;
+    line-height: 1.2vw;
+  }
+
+  .keynotetext{
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  .subtext{
+    font-size: 1.2vw;
+  }
+
+  .keynote-footer-section{
+    background:url(../img/keynote-footer.png);
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  }
+
+  .youtube{
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .keynote-footer-text{
+    margin: 20vh;
+    margin-left: 0;
+    color:white;
+    font-size: 3vh;
+  }
+
+}
+
