@@ -10,6 +10,9 @@
 .keynote-bg{
   background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-keynote.png');
 }
+.contact-bg{
+  background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-contact.png');
+}
 
 .masthead {
   position: relative;
