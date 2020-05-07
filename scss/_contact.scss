@@ -7,8 +7,8 @@
     border-right: 1px solid black;
   }
 
-  .dropdown-text{
-    
+  .dropdown-intro-text{
+    margin-bottom:2vh;
   }
 
   .dropdown-row{
@@ -16,6 +16,11 @@
     flex-direction: row;
     flex: 1;
     justify-content: space-between;
+    margin-bottom:4vh;
+  }
+
+  .message-input{
+    margin-bottom:4vh;
   }
 
   .dropdown-contact{
