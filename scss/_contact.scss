@@ -7,6 +7,26 @@
     border-right: 1px solid black;
   }
 
+  .dropdown-text{
+    
+  }
+
+  .dropdown-row{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+  }
+
+  .dropdown-contact{
+    border: 1px solid #ced4da;
+    width: 100%;
+  }
+
+  .dropdown-container{
+    width:80%;
+  }
+
   .email-container{
     display: flex;
     flex: 1;
