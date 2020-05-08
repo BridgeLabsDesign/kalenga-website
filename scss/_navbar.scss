@@ -11,6 +11,9 @@
       outline: none;
     }
   }
+  a:hover,.nav-link:hover{
+    color: gainsboro !important;
+  }
   .navbar-brand {
     color: $black;
     font-weight: 700;

@@ -21,6 +21,10 @@
   outline: none;
 }
 
+#mainNav a:hover, #mainNav .nav-link:hover {
+  color: gainsboro !important;
+}
+
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
@@ -899,6 +903,7 @@ body {
 
 .musa-logo {
   width: 25vh;
+  cursor: pointer;
 }
 
 .container {
