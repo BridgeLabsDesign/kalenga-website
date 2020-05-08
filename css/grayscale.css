@@ -679,7 +679,7 @@
   color: #999;
   overflow: hidden;
   min-height: 120px;
-  font-size: 13px;
+  font-size: 2vh;
 }
 
 .book-section .carousel .media {
@@ -688,8 +688,8 @@
 }
 
 .book-section .carousel .media img {
-  width: 75px;
-  height: 75px;
+  width: 8vh;
+  height: 8vh;
   display: block;
   border-radius: 50%;
 }
@@ -749,11 +749,17 @@
   background: black;
   border-top: unset;
   border-bottom: unset;
+  height: 1vh;
+  width: 4vh;
+  margin-top: 2vh;
 }
 
 .book-section .carousel-indicators li.active {
   color: #fff;
   background: black;
+  height: 1vh;
+  width: 4vh;
+  margin-top: 2vh;
 }
 
 .signup-section {

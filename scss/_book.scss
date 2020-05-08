@@ -32,7 +32,7 @@
 	color: #999;
 	overflow: hidden;
     min-height: 120px;
-  font-size: 13px;
+  font-size: 2vh;
 
 }
 .carousel .media {
@@ -40,8 +40,8 @@
 	padding: 0 0 0 20px;
 }
 .carousel .media img {
-	width: 75px;
-	height: 75px;
+	width: 8vh;
+	height: 8vh;
 	display: block;
 	border-radius: 50%;
 }
@@ -88,17 +88,23 @@
 
 .carousel-indicators{
   right:unset;
-  margin: unset;
+  margin:unset;
 }
 
 .carousel-indicators li {	
     background: black;
     border-top:unset;
     border-bottom:unset;
+    height:1vh;
+    width:4vh;
+    margin-top:2vh;
 }
 .carousel-indicators li.active {
 	color: #fff;
-    background:black;  
+    background:black;      
+    height:1vh;
+    width:4vh;
+    margin-top:2vh;
 }
 
 }
