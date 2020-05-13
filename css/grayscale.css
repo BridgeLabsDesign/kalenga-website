@@ -7,7 +7,7 @@
 #mainNav {
   min-height: 56px;
   background-color: #fff;
-  font-family: Lora;
+  font-family: 'Lato';
   padding: 3vh;
 }
 
@@ -96,7 +96,7 @@
 #mainFooter {
   min-height: 56px;
   background: #0024B1;
-  font-family: Lora;
+  font-family: 'Lato';
   padding: 3vh;
 }
 
@@ -330,7 +330,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Lato';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -370,7 +370,7 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Lato';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -722,7 +722,7 @@
   border-right-color: currentcolor;
   border-bottom-color: currentcolor;
   border-left-color: currentcolor;
-  font-family: Roboto !important;
+  font-family: 'Lato' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -823,7 +823,7 @@
 }
 
 .book-section .testimonial-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato';
 }
 
 .book-section .buy-button {
@@ -941,7 +941,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Lato';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -1016,7 +1016,7 @@
   border-right-color: currentcolor;
   border-bottom-color: currentcolor;
   border-left-color: currentcolor;
-  font-family: Roboto !important;
+  font-family: 'Lato' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -1034,7 +1034,7 @@
 
 .contact-page .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Lato';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -1068,7 +1068,7 @@
 }
 
 body {
-  font-family: Lora;
+  font-family: Lato;
   letter-spacing: 0.0625em;
   font-size: 2.5vh;
   overflow-x: hidden;
@@ -1092,7 +1092,7 @@ body {
 .btn-outline-primary {
   border-color: #007bff !important;
   border: 2px solid;
-  font-family: Roboto !important;
+  font-family: Lato !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -1121,7 +1121,7 @@ body {
   padding: 7px 28px;
   border-radius: 5px;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: Lato;
   cursor: pointer;
 }
 
