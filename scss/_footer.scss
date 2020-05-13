@@ -14,12 +14,15 @@
   .footer-container{
     display: flex;
   }
+
+
   .footer-brand {
     color: $black;
     font-weight: 700;
   }
   .footer-nav {
     list-style: none;
+    margin-bottom:0;
     display: flex;
     .footer-item {
       &:hover {
@@ -34,9 +37,16 @@
       }
     }
   }
+
+  .padding-reduce{
+    padding: 0;
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+
   .footer-link {
     padding-right: .5rem;
-    font-size: 1.3vw;
+    font-size: 2.1vh !important;
     padding-left: .5rem;
     transition: none;
     color: white;

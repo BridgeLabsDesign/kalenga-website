@@ -14,6 +14,26 @@
   background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-contact.png');
 }
 
+.bolden{
+    font-weight: 600;
+}
+
+.videoBG{
+  visibility: hidden;
+}
+
+.videoActive{
+  visibility: visible !important;
+}
+
+.hide-element{
+  visibility: hidden;
+}
+
+.header-container{
+  bottom: 0; position: absolute;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -23,6 +43,118 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+
+  .tile-container-outer{
+    width:35vh; 
+    height:30vh;
+    cursor:pointer;
+    background-color: #0024B1;
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+  }
+
+  .white-background{
+    background-color:white;
+  }
+
+  .tile-container-inner{
+    width: 30vh; 
+    height: 25vh; 
+    margin: 0 auto;
+  }
+
+  .tile-icon{
+    margin-bottom:1vh;
+    width:4vh;
+    height:4vh;
+  }
+  .tile-title-text{
+    font-size:1.8vh;
+    color:white;
+    line-height: 2vh;
+    letter-spacing: 0;
+    margin:0;
+    margin-bottom:1vh;
+  }
+
+  .arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;    
+    border-left: 2vh solid #0024B1;
+  }
+
+  .tile-image-container {
+    position: relative;
+  }
+  
+  /* Make the image to responsive */
+  .tile-image {
+    width:35vh; 
+    height:30vh;
+  }
+  
+  /* The overlay effect - lays on top of the container and over the image */
+  .tile-triangle {
+    position: absolute;
+    top: 2.5vh;
+    width: 0; 
+    height: 0; 
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;    
+    border-left: 2vh solid #0024B1;
+  }
+  
+  .tile-triangle-white {
+    position: absolute;
+    top: 2.5vh;
+    width: 0; 
+    height: 0; 
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;    
+    border-left: 2vh solid white;
+  }
+  
+
+  .tile-subtext{
+    font-size:1.6vh;
+    color:#d0d0d0;
+    line-height: 1.6vh;
+    letter-spacing: 0;
+     margin:0;
+     margin-bottom:1vh;
+  }
+
+  .black-font{
+    color:black !important;
+  }
+
+  .primary-font{
+    color: #0024b1 !important;
+  }
+
+  .tile-more{
+    font-size:2vh;
+    color:white;
+    line-height: 2vh;
+    letter-spacing: 0; 
+    margin:0;
+  }
+  .tile-more:hover{
+    text-decoration: underline;
+    font-size:2vh;
+    color:white;
+    line-height: 2vh;
+    letter-spacing: 0; 
+    margin:0;
+  }
+
+  .active-tile{
+    text-decoration: underline;
+  }
+
   .title-text{
     color:white;
     font-size: 3.5vh;

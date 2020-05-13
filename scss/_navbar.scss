@@ -11,6 +11,17 @@
       outline: none;
     }
   }
+
+  .padding-reduce{
+    padding: 0;
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+
+  .nav-link{
+    font-size: 2.1vh !important;
+  }
+
   a:hover,.nav-link:hover{
     color: gainsboro !important;
   }

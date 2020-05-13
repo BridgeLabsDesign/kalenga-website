@@ -21,6 +21,16 @@
   outline: none;
 }
 
+#mainNav .padding-reduce {
+  padding: 0;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+#mainNav .nav-link {
+  font-size: 2.1vh !important;
+}
+
 #mainNav a:hover, #mainNav .nav-link:hover {
   color: gainsboro !important;
 }
@@ -111,6 +121,7 @@
 
 #mainFooter .footer-nav {
   list-style: none;
+  margin-bottom: 0;
   display: flex;
 }
 
@@ -125,9 +136,15 @@
   background-color: transparent;
 }
 
+#mainFooter .padding-reduce {
+  padding: 0;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
 #mainFooter .footer-link {
   padding-right: .5rem;
-  font-size: 1.3vw;
+  font-size: 2.1vh !important;
   padding-left: .5rem;
   transition: none;
   color: white;
@@ -161,6 +178,27 @@
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-contact.png");
 }
 
+.bolden {
+  font-weight: 600;
+}
+
+.videoBG {
+  visibility: hidden;
+}
+
+.videoActive {
+  visibility: visible !important;
+}
+
+.hide-element {
+  visibility: hidden;
+}
+
+.header-container {
+  bottom: 0;
+  position: absolute;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -170,6 +208,118 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  /* Make the image to responsive */
+  /* The overlay effect - lays on top of the container and over the image */
+}
+
+.masthead .tile-container-outer {
+  width: 35vh;
+  height: 30vh;
+  cursor: pointer;
+  background-color: #0024B1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.masthead .white-background {
+  background-color: white;
+}
+
+.masthead .tile-container-inner {
+  width: 30vh;
+  height: 25vh;
+  margin: 0 auto;
+}
+
+.masthead .tile-icon {
+  margin-bottom: 1vh;
+  width: 4vh;
+  height: 4vh;
+}
+
+.masthead .tile-title-text {
+  font-size: 1.8vh;
+  color: white;
+  line-height: 2vh;
+  letter-spacing: 0;
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+.masthead .arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 2vh solid transparent;
+  border-bottom: 2vh solid transparent;
+  border-left: 2vh solid #0024B1;
+}
+
+.masthead .tile-image-container {
+  position: relative;
+}
+
+.masthead .tile-image {
+  width: 35vh;
+  height: 30vh;
+}
+
+.masthead .tile-triangle {
+  position: absolute;
+  top: 2.5vh;
+  width: 0;
+  height: 0;
+  border-top: 2vh solid transparent;
+  border-bottom: 2vh solid transparent;
+  border-left: 2vh solid #0024B1;
+}
+
+.masthead .tile-triangle-white {
+  position: absolute;
+  top: 2.5vh;
+  width: 0;
+  height: 0;
+  border-top: 2vh solid transparent;
+  border-bottom: 2vh solid transparent;
+  border-left: 2vh solid white;
+}
+
+.masthead .tile-subtext {
+  font-size: 1.6vh;
+  color: #d0d0d0;
+  line-height: 1.6vh;
+  letter-spacing: 0;
+  margin: 0;
+  margin-bottom: 1vh;
+}
+
+.masthead .black-font {
+  color: black !important;
+}
+
+.masthead .primary-font {
+  color: #0024b1 !important;
+}
+
+.masthead .tile-more {
+  font-size: 2vh;
+  color: white;
+  line-height: 2vh;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.masthead .tile-more:hover {
+  text-decoration: underline;
+  font-size: 2vh;
+  color: white;
+  line-height: 2vh;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.masthead .active-tile {
+  text-decoration: underline;
 }
 
 .masthead .title-text {
@@ -334,6 +484,12 @@
   height: 50vh;
   width: auto;
   float: right;
+}
+
+.about-section .intro-detail {
+  font-size: 2.5vh;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-section .about-text {
@@ -651,7 +807,7 @@
 }
 
 .book-section .book-img {
-  height: 50vh;
+  height: 55vh;
   width: auto;
   float: left;
 }
@@ -751,7 +907,6 @@
   border-bottom: unset;
   height: 1vh;
   width: 4vh;
-  margin-top: 2vh;
 }
 
 .book-section .carousel-indicators li.active {
@@ -759,7 +914,18 @@
   background: black;
   height: 1vh;
   width: 4vh;
-  margin-top: 2vh;
+}
+
+@media only screen and (max-width: 1199px) {
+  .book-section .carousel-indicators {
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .book-section .carousel-indicators {
+    bottom: -2.5vh;
+  }
 }
 
 .signup-section {
@@ -905,6 +1071,7 @@ body {
   font-family: Lora;
   letter-spacing: 0.0625em;
   font-size: 2.5vh;
+  overflow-x: hidden;
 }
 
 .musa-logo {

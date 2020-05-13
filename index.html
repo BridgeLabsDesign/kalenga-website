@@ -29,7 +29,7 @@
 <body id="page-top" class="landing-page">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
+    <div class="container padding-reduce">
       <a class="navbar-brand js-scroll-trigger" href="/">
         <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
       </a>
@@ -62,12 +62,18 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead home-bg container">
-    <div style="bottom: 0; position: absolute;">
+  <header id="home-header" class="masthead home-bg container">
+    <video id="videoBG" class="videoBG" style="width:100%;">
+      <source src="img/15seconds.mp4" type="video/mp4">
+    </video>
+    <div id="header-container-playing" class="header-container hide-element container">
+      <img id="btn-stop" style="width:11.25vh; height:11.25vh;margin-bottom: 3vh;" src="img/play.png" alt="">
+    </div>
+    <div id="header-container" class="header-container">
       <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
-        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 10vh;">
+        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
           <div style="display: flex;flex: 1;flex-direction: column;">
-            <img style="width:15vh; height:15vh;margin-bottom: 3vh;" src="img/play.png" alt="">
+            <img style="width:11.25vh; height:11.25vh;margin-bottom: 3vh;" id="btn-play" src="img/play.png" alt="">
             <span class="title-text">
               Musa Kalenga is an entrepreneur, investor, keynote speaker and author. Born in Zambia, Musa has lived in
               Scotland, Botswana and England, but is currently based in Johannesburg, South Africa.</span>
@@ -75,16 +81,49 @@
         </div>
         <div style="display: flex;flex-direction: row;flex: 0.6;justify-content: flex-end;align-items: flex-end;">
           <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/1.png" alt="">
+          <!-- <div style="width:35vh; height:30vh;cursor:pointer;background-color: white">
+            <img style="width:15vh; height:15vh;" src="img/tiles/1.png" alt="">
+          </div> -->
+          <!-- <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/1.png" alt=""> -->
           <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/2.png" alt="">
         </div>
       </div>
       <div style="display: flex;flex-direction: row;flex: 1;justify-content: flex-end;">
-        <img style="width:35vh; height:30vh;margin-right: -2vh; z-index: 10;cursor:pointer;" src="img/tiles/3.png"
-          alt="">
-        <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/4.png" alt="">
-        <img style="width:37vh; height:30vh;margin-right: -2vh; z-index: 10;cursor:pointer;" src="img/tiles/5.png"
-          alt="">
-        <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/6.png" alt="">
+        <div id="tile-one" class="tile-container-outer">
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
+            <p class="tile-title-text">
+              RADICAL RACIAL CANDOUR
+              MADE
+              POSSIBLE BY
+              TECHNOLOGY OF OUR TIMES</p>
+            <p class="tile-subtext">
+              Living in South Africa can be an emotional roller-coaster. One minute there are encouraging signs of
+              progression, cohesion and social advance, and the next the fractures in our society reveal themselves in
+              the ugliest ways.
+            </p>
+            <p id="tile-one-link" class="tile-more">Read more</p>
+          </div>
+        </div>
+        <div class="tile-image-container">
+          <img class="tile-image" src="img/tiles/4.png">
+          <div class="tile-triangle"></div>
+        </div>
+        <div id="tile-two" class="tile-container-outer white-background">
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/linkedin.svg">
+            <p class="tile-subtext black-font">
+              We have to provide opportunities for young people to lead in our organizations and change the future of
+              our continent. These two phenomenal individuals - Palesa Molefe and Bruno Kiafuka emerged successful as
+              our new leadership...
+            </p>
+            <p id="tile-two-link" class="tile-more primary-font">Read more</p>
+          </div>
+        </div>
+        <div class="tile-image-container">
+          <img class="tile-image" src="img/tiles/6.png">
+          <div class="tile-triangle-white"></div>
+        </div>
       </div>
     </div>
   </header>
@@ -102,7 +141,7 @@
       </div>
       <div class="row">
         <div class="col-lg-6 mx-auto about-text">
-          <span>
+          <p class="intro-detail">
             With many titles to his name, Musa is the CEO of Bridge Labs, as well a shareholder and a board member at
             The
             Brave Group and Loxyion Conexyion. He was the first Chairman of the Youth Advertising Board of South Africa
@@ -114,7 +153,7 @@
             Monatefellaz was incorporated into IHOP WORLD, as part of a merger with a division of the Brand Leadership
             Group, Musa worked as Managing Director before becoming Group Head of Digital Marketing at Nedbank, and then
             Facebook Client Partner for Africa.
-          </span>
+          </p>
         </div>
         <div class="col-lg-6 mx-auto">
           <img class="about-img" src="img/about-landing.png">
@@ -141,7 +180,7 @@
         <div class="col-lg-6 mx-auto book-text">
           <div class="row">
             <span>
-              Musa is the author of Ladders and Trampolines, a book that shares anecdotes and experiences about growing
+              Musa is the author of Ladders & Trampolines, a book that shares anecdotes and experiences about growing
               up
               in Southern Africa, as well as working and doing business all over the continent.
             </span>
@@ -235,7 +274,7 @@
 
   <!-- Footer -->
   <footer id="mainFooter" class="text-white-50">
-    <div class="container footer-container">
+    <div class="container padding-reduce footer-container">
       <a class="footer-brand js-scroll-trigger" href="#page-top">
         <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
       </a>
