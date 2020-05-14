@@ -12,7 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
@@ -61,16 +61,15 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead keynote-bg container">
-    <div style="bottom: 0; position: absolute;">
+  <header id="keynote-header" class="masthead  keynote-bg container">
+    <div id="header-container" class="header-container">
       <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
-        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 10vh;">
+        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
           <div style="display: flex;flex: 1;flex-direction: column;">
-            <span class="title-text">
+            <span class="title-header">
               KEYNOTE FEEDBACK
             </span>
-            <span style="margin-top:1vh;color: white;font-size: 2.5vh;" class="title-subtext">
+            <span class="title-text">
               Thank you for attending my latest keynote. As my keynotes focus on similar themes but evolve and grow over
               time, I’d love to hear your feedback. Please feel free to share all your thoughts and suggestions in the
               multiple choice form below:
@@ -83,12 +82,41 @@
         </div>
       </div>
       <div style="display: flex;flex-direction: row;flex: 1;justify-content: flex-end;">
-        <img style="width:35vh; height:30vh;margin-right: -2vh; z-index: 10;cursor:pointer;" src="img/tiles/3.png"
-          alt="">
-        <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/4.png" alt="">
-        <img style="width:37vh; height:30vh;margin-right: -2vh; z-index: 10;cursor:pointer;" src="img/tiles/5.png"
-          alt="">
-        <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/6.png" alt="">
+        <div id="tile-one" class="tile-container-outer">
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
+            <p class="tile-title-text">
+              RADICAL RACIAL CANDOUR
+              MADE
+              POSSIBLE BY
+              TECHNOLOGY OF OUR TIMES</p>
+            <p class="tile-subtext">
+              Living in South Africa can be an emotional roller-coaster. One minute there are encouraging signs of
+              progression, cohesion and social advance, and the next the fractures in our society reveal themselves in
+              the ugliest ways.
+            </p>
+            <p id="tile-one-link" class="tile-more">Read more</p>
+          </div>
+        </div>
+        <div class="tile-image-container">
+          <img class="tile-image" src="img/tiles/4.png">
+          <div class="tile-triangle"></div>
+        </div>
+        <div id="tile-two" class="tile-container-outer white-background">
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/linkedin.svg">
+            <p class="tile-subtext black-font">
+              We have to provide opportunities for young people to lead in our organizations and change the future of
+              our continent. These two phenomenal individuals - Palesa Molefe and Bruno Kiafuka emerged successful as
+              our new leadership...
+            </p>
+            <p id="tile-two-link" class="tile-more primary-font">Read more</p>
+          </div>
+        </div>
+        <div class="tile-image-container">
+          <img class="tile-image" src="img/tiles/6.png">
+          <div class="tile-triangle-white"></div>
+        </div>
       </div>
     </div>
   </header>

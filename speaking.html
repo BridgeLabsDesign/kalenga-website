@@ -15,6 +15,7 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link
@@ -61,15 +62,17 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="masthead speaking-bg container">
-    <div style="bottom: 0; position: absolute;">
+  <header id="speaking-header" class="masthead speaking-bg container">
+    <div id="header-container" class="header-container">
       <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
-        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 10vh;">
+        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
           <div style="display: flex;flex: 1;flex-direction: column;">
+            <span class="title-header">SPEAKING</span>
             <span class="title-text">
-              Musa Kalenga is an entrepreneur, investor, keynote speaker and author. Born in Zambia, Musa has lived in
-              Scotland, Botswana and England, but is currently based in Johannesburg, South Africa.</span>
+              Musa Kalenga is an enthusiastic entrepreneur who is passionate about using technology to empower the
+              “digitally invisible”. As CEO and Founder of Bridge Labs, Musa addresses the problem of gaining access to
+              appropriate online tools for entrepreneurs and Small to Medium Businesses (SMB's) by building mobile
+              platforms to support this growth.</span>
           </div>
         </div>
         <div style="display: flex;flex-direction: row;flex: 0.6;justify-content: flex-end;align-items: flex-end;">
@@ -78,12 +81,41 @@
         </div>
       </div>
       <div style="display: flex;flex-direction: row;flex: 1;justify-content: flex-end;">
-        <img style="width:35vh; height:30vh;margin-right: -2vh; z-index: 10;cursor:pointer;" src="img/tiles/3.png"
-          alt="">
-        <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/4.png" alt="">
-        <img style="width:37vh; height:30vh;margin-right: -2vh; z-index: 10;cursor:pointer;" src="img/tiles/5.png"
-          alt="">
-        <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/6.png" alt="">
+        <div id="tile-one" class="tile-container-outer">
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
+            <p class="tile-title-text">
+              RADICAL RACIAL CANDOUR
+              MADE
+              POSSIBLE BY
+              TECHNOLOGY OF OUR TIMES</p>
+            <p class="tile-subtext">
+              Living in South Africa can be an emotional roller-coaster. One minute there are encouraging signs of
+              progression, cohesion and social advance, and the next the fractures in our society reveal themselves in
+              the ugliest ways.
+            </p>
+            <p id="tile-one-link" class="tile-more">Read more</p>
+          </div>
+        </div>
+        <div class="tile-image-container">
+          <img class="tile-image" src="img/tiles/4.png">
+          <div class="tile-triangle"></div>
+        </div>
+        <div id="tile-two" class="tile-container-outer white-background">
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/linkedin.svg">
+            <p class="tile-subtext black-font">
+              We have to provide opportunities for young people to lead in our organizations and change the future of
+              our continent. These two phenomenal individuals - Palesa Molefe and Bruno Kiafuka emerged successful as
+              our new leadership...
+            </p>
+            <p id="tile-two-link" class="tile-more primary-font">Read more</p>
+          </div>
+        </div>
+        <div class="tile-image-container">
+          <img class="tile-image" src="img/tiles/6.png">
+          <div class="tile-triangle-white"></div>
+        </div>
       </div>
     </div>
   </header>

@@ -197,6 +197,7 @@
 .header-container {
   bottom: 0;
   position: absolute;
+  width: 100%;
 }
 
 .masthead {
@@ -322,10 +323,18 @@
   text-decoration: underline;
 }
 
+.masthead .title-header {
+  color: white;
+  font-size: 3vh;
+  line-height: 3.5vh;
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
 .masthead .title-text {
   color: white;
-  font-size: 3.5vh;
-  line-height: 4vh;
+  font-size: 2.5vh;
+  line-height: 3.5vh;
   font-weight: lighter !important;
 }
 
@@ -1068,7 +1077,7 @@
 }
 
 body {
-  font-family: Lato;
+  font-family: 'Lato';
   letter-spacing: 0.0625em;
   font-size: 2.5vh;
   overflow-x: hidden;
@@ -1092,7 +1101,7 @@ body {
 .btn-outline-primary {
   border-color: #007bff !important;
   border: 2px solid;
-  font-family: Lato !important;
+  font-family: 'Lato' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -1121,7 +1130,7 @@ body {
   padding: 7px 28px;
   border-radius: 5px;
   font-size: 16px;
-  font-family: Lato;
+  font-family: 'Lato';
   cursor: pointer;
 }
 
