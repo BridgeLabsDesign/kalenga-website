@@ -212,6 +212,47 @@
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-contact.png");
 }
 
+@media (max-width: 599px) {
+  .home-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead-mobile.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+  .speaking-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking-mobile.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+  .thoughtleadership-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-thoughtleadership-mobile.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+  .keynote-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-keynote-mobile.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+  .contact-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-contact-mobile.png") no-repeat center center fixed !important;
+    background-size: cover !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .home-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.png");
+  }
+  .speaking-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking.png");
+  }
+  .thoughtleadership-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-thoughtleadership.png");
+  }
+  .keynote-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-keynote.png");
+  }
+  .contact-bg {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-contact.png");
+  }
+}
+
 .bolden {
   font-weight: 600;
 }

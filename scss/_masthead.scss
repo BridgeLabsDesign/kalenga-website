@@ -14,6 +14,64 @@
   background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-contact.png');
 }
 
+
+@media (max-width: 599px) {
+  .home-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-masthead-mobile.png')  no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+  .speaking-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-speaking-mobile.png')  no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+  .thoughtleadership-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-thoughtleadership-mobile.png')  no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+  .keynote-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-keynote-mobile.png')  no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+  .contact-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-contact-mobile.png')  no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+  }
+}
+
+@media (min-width: 600px) {
+  .home-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-masthead.png');
+  }
+  .speaking-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-speaking.png');
+  }
+  .thoughtleadership-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-thoughtleadership.png');
+  }
+  .keynote-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-keynote.png');
+  }
+  .contact-bg{
+    background: linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .3)} 75%,$black 100%),  url('../img/bg-contact.png');
+  }
+}
+
+
 .bolden{
     font-weight: 600;
 }
