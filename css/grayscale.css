@@ -7,7 +7,7 @@
 #mainNav {
   min-height: 56px;
   background-color: #fff;
-  font-family: 'Lato';
+  font-family: 'Effra';
   padding: 3vh;
 }
 
@@ -93,10 +93,44 @@
   }
 }
 
+@media (max-width: 992px) {
+  #mainNav .mobile {
+    display: flex !important;
+    flex: 1;
+  }
+  #mainNav .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  #mainNav .desktop {
+    display: inline !important;
+  }
+}
+
+#mainNav .mobile {
+  display: none;
+}
+
+#mainNav .desktop {
+  display: none;
+}
+
+#mainNav .mobile-menu-container {
+  display: flex;
+  flex: 0.4;
+}
+
+#mainNav .mobile-logo-container {
+  display: flex;
+  flex: 0.6;
+}
+
 #mainFooter {
   min-height: 56px;
   background: #0024B1;
-  font-family: 'Lato';
+  font-family: 'Effra';
   padding: 3vh;
 }
 
@@ -211,6 +245,43 @@
   background-size: cover;
   /* Make the image to responsive */
   /* The overlay effect - lays on top of the container and over the image */
+}
+
+@media (max-width: 992px) {
+  .masthead .mobile {
+    display: flex !important;
+    flex: 1;
+  }
+  .masthead .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .masthead .desktop {
+    display: block !important;
+  }
+}
+
+.masthead .mobile {
+  display: none;
+}
+
+.masthead .desktop {
+  display: none;
+}
+
+.masthead .header-mobile-container {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.masthead .header-mobile-text {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
 
 .masthead .tile-container-outer {
@@ -339,7 +410,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Lato';
+  font-family: 'Effra';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -379,7 +450,7 @@
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Lato';
+  font-family: 'Effra';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -731,7 +802,7 @@
   border-right-color: currentcolor;
   border-bottom-color: currentcolor;
   border-left-color: currentcolor;
-  font-family: 'Lato' !important;
+  font-family: 'Effra' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -832,7 +903,7 @@
 }
 
 .book-section .testimonial-text {
-  font-family: 'Lato';
+  font-family: 'Effra';
 }
 
 .book-section .buy-button {
@@ -950,7 +1021,7 @@
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Lato';
+  font-family: 'Effra';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -1025,7 +1096,7 @@
   border-right-color: currentcolor;
   border-bottom-color: currentcolor;
   border-left-color: currentcolor;
-  font-family: 'Lato' !important;
+  font-family: 'Effra' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -1043,7 +1114,7 @@
 
 .contact-page .card h4 {
   font-size: 0.8rem;
-  font-family: 'Lato';
+  font-family: 'Effra';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -1077,20 +1148,106 @@
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Effra';
   font-style: normal;
   font-weight: normal;
-  src: local("Tangerine"), url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+  src: local("Effra"), url("../fonts/Effra/Effra_Std_Rg.ttf") format("truetype");
+}
+
+.scroll-downs {
+  width: 34px;
+  height: 55px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  -webkit-animation-name: scroll;
+  animation-name: scroll;
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
+  -webkit-animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
+}
+
+.mr {
+  margin-right: 1vh;
+}
+
+.mobile-contact-image {
+  width: 18vh;
+  height: 15vh;
+}
+
+.mobile-contact-row {
+  position: absolute;
+  bottom: -7vh;
+  right: 40%;
+  left: 40%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
 }
 
 body {
-  font-family: 'Lato';
+  font-family: 'Effra';
   letter-spacing: 0.0625em;
   font-size: 2.5vh;
   overflow-x: hidden;
 }
 
 .musa-logo {
+  width: 25vh;
+  cursor: pointer;
+}
+
+.musa-logo-mobile {
   width: 25vh;
   cursor: pointer;
 }
@@ -1108,7 +1265,7 @@ body {
 .btn-outline-primary {
   border-color: #007bff !important;
   border: 2px solid;
-  font-family: 'Lato' !important;
+  font-family: 'Effra' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding: 1vh;
@@ -1137,7 +1294,7 @@ body {
   padding: 7px 28px;
   border-radius: 5px;
   font-size: 16px;
-  font-family: 'Lato';
+  font-family: 'Effra';
   cursor: pointer;
 }
 
@@ -1164,4 +1321,60 @@ a:focus, a:hover {
 
 .footer {
   padding: 3vh 0;
+}
+
+#hamburger-toggle {
+  cursor: pointer;
+}
+
+.overlay-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay-menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay-menu a:hover, .overlay-menu a:focus {
+  color: #f1f1f1;
+}
+
+.overlay-menu .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay-menu a {
+    font-size: 20px;
+  }
+  .overlay-menu .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }

@@ -29,18 +29,28 @@
 
 <body id="page-top" class="landing-page">
   <!-- Navigation -->
+  <div id="myNav" class="overlay-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/">Home</a>
+      <a href="/speaking.html">Speaking</a>
+      <a href="/thoughtleadership.html.html">Media</a>
+      <a href="/keynotefeedback.html">Keynote Feedback</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container padding-reduce">
-      <a class="navbar-brand js-scroll-trigger" href="/">
-        <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
+    <div class="mobile container padding-reduce">
+      <div class="mobile-menu-container">
+        <img id="hamburger-toggle" onclick="openNav()" src="img/menu.svg" />
+      </div>
+      <div class="mobile-logo-container">
+        <img class="musa-logo-mobile" src='img/logo-black.png' />
+      </div>
+    </div>
+    <div class="desktop container padding-reduce">
       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/">About</a>
@@ -70,7 +80,24 @@
     <div id="header-container-playing" class="header-container hide-element container">
       <img id="btn-stop" style="width:11.25vh; height:11.25vh;margin-bottom: 3vh;" src="img/play.png" alt="">
     </div>
-    <div id="header-container" class="header-container">
+    <div class="header-mobile-container mobile">
+      <div class="header-mobile-text">
+        <span class="title-text">
+          Musa Kalenga is an entrepreneur, investor, keynote speaker and author.
+        </span>
+      </div>
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+      <div class="mobile-contact-row">
+        <img class="mobile-contact-image mr" src="img/tiles/mobile/book.png">
+        <img class="mobile-contact-image" src="img/tiles/mobile/contact.png">
+      </div>
+    </div>
+    </div>
+    <div id="header-container" class="header-container desktop">
       <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
         <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
           <div style="display: flex;flex: 1;flex-direction: column;">
@@ -81,10 +108,6 @@
         </div>
         <div style="display: flex;flex-direction: row;flex: 0.6;justify-content: flex-end;align-items: flex-end;">
           <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/1.png" alt="">
-          <!-- <div style="width:35vh; height:30vh;cursor:pointer;background-color: white">
-            <img style="width:15vh; height:15vh;" src="img/tiles/1.png" alt="">
-          </div> -->
-          <!-- <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/1.png" alt=""> -->
           <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/2.png" alt="">
         </div>
       </div>

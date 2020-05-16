@@ -1,4 +1,14 @@
 $(document).ready(function () {
+
+
+  $("#hamburger-toggle").on("click", function () {
+    document.getElementById("myNav").style.width = "100%";
+  });
+
+  $(".closebtn").on("click", function () {
+    document.getElementById("myNav").style.width = "0%";
+  });
+
   $('#tile-one').hover(function () {
     $('#tile-one-link').addClass('active-tile');
     $('#tile-one').addClass('bolden');
@@ -53,6 +63,7 @@ $(document).ready(function () {
         }
       }
     });
+
 
     // Closes responsive menu when a scroll trigger link is clicked
     $('.js-scroll-trigger').click(function () {

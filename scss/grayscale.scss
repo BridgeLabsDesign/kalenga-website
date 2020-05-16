@@ -15,14 +15,72 @@
 @import 'contact.scss';
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Effra';
   font-style: normal;
   font-weight: normal;
-  src: local('Tangerine'), url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+  src: local('Effra'), url('../fonts/Effra/Effra_Std_Rg.ttf') format('truetype');
 }
 
+
+//////////////////////////  Scroll Menu  //////////////////////////////////////
+
+.scroll-downs {  
+  width :34px;
+  height: 55px;
+  margin:0 auto;
+  margin-top:5vh;
+  margin-bottom:5vh;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+////////////////////////////////////////////////////////////////
+
+.mr{
+  margin-right: 1vh;
+}
+
+.mobile-contact-image{
+  width:18vh;
+  height:15vh;
+}
+
+.mobile-contact-row{
+  position: absolute;
+  bottom: -7vh;
+  right: 40%;
+  left: 40%;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
 body {
-  font-family: 'Lato';
+  font-family: 'Effra';
   letter-spacing: 0.0625em;
   font-size: 2.5vh;
   overflow-x: hidden;
@@ -31,6 +89,11 @@ body {
   width:25vh;
   cursor:pointer;
 }
+.musa-logo-mobile{
+  width:25vh;
+  cursor:pointer;
+}
+
 .container{
   max-width:100%;
   padding: 5vh;
@@ -46,7 +109,7 @@ body {
 .btn-outline-primary{
   border-color: #007bff !important;
   border: 2px solid;
-  font-family: 'Lato' !important;
+  font-family: 'Effra' !important;
   font-weight: 500;
   font-size: 2.5vh;
   padding:1vh;
@@ -75,7 +138,7 @@ body {
   padding: 7px 28px;
   border-radius:5px;
   font-size: 16px;
-  font-family: 'Lato';
+  font-family: 'Effra';
   cursor: pointer;
 }
 
@@ -102,4 +165,60 @@ a {
 
 .footer {
   padding: 3vh 0;
+}
+
+//////////////////////////////////// overlay menu //////////////////////////////////////
+
+#hamburger-toggle{
+  cursor: pointer;
+}
+
+.overlay-menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay-menu a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay-menu a:hover, .overlay-menu a:focus {
+  color: #f1f1f1;
+}
+
+.overlay-menu .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay-menu a {font-size: 20px}
+  .overlay-menu .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
 }

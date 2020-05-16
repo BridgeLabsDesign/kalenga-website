@@ -1,7 +1,7 @@
 #mainNav {
   min-height: 56px;
   background-color: $white;
-  font-family: 'Lato';
+  font-family: 'Effra';
   padding: 3vh;
   .navbar-toggler {
     font-size: 80%;
@@ -82,4 +82,32 @@
       }
     }
   }
+
+  @media (max-width: 992px) {
+    .mobile{display:flex !important;flex:1;}
+    .desktop{display:none;}
+  }
+  
+  @media (min-width: 993px) {
+    .desktop{display:inline !important;}
+  }
+  
+  .mobile{
+    display:none;
+  }
+  
+  .desktop{
+    display:none;
+  }
+
+  .mobile-menu-container{
+    display:flex;
+    flex:0.4;
+  }
+
+  .mobile-logo-container{
+    display:flex;
+    flex:0.6;
+  }
+  
 }

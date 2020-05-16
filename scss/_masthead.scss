@@ -36,6 +36,38 @@
 }
 
 .masthead {
+  @media (max-width: 992px) {
+    .mobile{display:flex !important;flex:1;}
+    .desktop{display:none;}
+  }
+  
+  @media (min-width: 993px) {
+    .desktop{display:block !important;}
+  }
+  
+  .mobile{
+    display:none;
+  }
+  
+  .desktop{
+    display:none;
+  }
+
+  .header-mobile-container{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header-mobile-text{
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
   position: relative;
   width: 100%;
   height: auto;
@@ -174,7 +206,7 @@
 
 
   h1 {
-    font-family: 'Lato';
+    font-family: 'Effra';
     font-size: 2.5rem;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
