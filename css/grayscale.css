@@ -137,6 +137,8 @@
 @media (max-width: 599px) {
   #mainNav .musa-logo-mobile {
     margin-left: -5vh;
+    width: auto;
+    height: 5vh;
   }
 }
 
