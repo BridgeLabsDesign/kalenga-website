@@ -643,6 +643,20 @@
   right: 6vh;
 }
 
+.about-section .mobile-center {
+  text-align: unset;
+}
+
+@media (max-width: 992px) {
+  .about-section .about-img {
+    text-align: center;
+    float: none;
+  }
+  .about-section .mobile-center {
+    text-align: center;
+  }
+}
+
 .social-grid {
   /* quick grid */
   scale: 90%;
@@ -1050,6 +1064,21 @@
   background: black;
   height: 1vh;
   width: 4vh;
+}
+
+.book-section .mobile-center {
+  text-align: unset;
+}
+
+@media (max-width: 992px) {
+  .book-section .book-img {
+    text-align: center;
+    float: none;
+    margin-bottom: 10vh;
+  }
+  .book-section .mobile-center {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
