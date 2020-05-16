@@ -110,4 +110,18 @@
     flex:0.6;
   }
   
+
+  .musa-logo-mobile{
+    width:25vh;
+    height:auto;
+    cursor:pointer;
+    margin-left: -5vh;
+  }
+
+  @media (max-width: 599px) {
+    .musa-logo-mobile{
+      margin-left: -5vh;
+    }
+  }
+
 }

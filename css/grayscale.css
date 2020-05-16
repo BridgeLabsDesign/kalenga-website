@@ -127,6 +127,19 @@
   flex: 0.6;
 }
 
+#mainNav .musa-logo-mobile {
+  width: 25vh;
+  height: auto;
+  cursor: pointer;
+  margin-left: -5vh;
+}
+
+@media (max-width: 599px) {
+  #mainNav .musa-logo-mobile {
+    margin-left: -5vh;
+  }
+}
+
 #mainFooter {
   min-height: 56px;
   background: #0024B1;
@@ -214,7 +227,8 @@
 
 @media (max-width: 599px) {
   .home-bg {
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead-mobile.png") no-repeat center center fixed !important;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead-mobile.png") !important;
+    background-size: cover !important;
   }
   .speaking-bg {
     background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking-mobile.png") no-repeat center center fixed !important;
@@ -1283,11 +1297,6 @@ body {
 }
 
 .musa-logo {
-  width: 25vh;
-  cursor: pointer;
-}
-
-.musa-logo-mobile {
   width: 25vh;
   cursor: pointer;
 }
