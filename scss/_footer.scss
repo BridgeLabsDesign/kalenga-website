@@ -3,6 +3,14 @@
   background: #0024B1;
   font-family: 'Effra';
   padding: 3vh;
+  display:flex;
+
+
+  @media (max-width: 599px) {
+    display:none !important;
+  }
+
+
   .footer-toggler {
     font-size: 80%;
     color: $primary;
