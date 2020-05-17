@@ -617,7 +617,7 @@
 }
 
 .about-section .about-img {
-  height: 50vh;
+  height: 55vh;
   width: auto;
   float: right;
 }
@@ -651,6 +651,7 @@
   .about-section .about-img {
     text-align: center;
     float: none;
+    height: 55vw;
   }
   .about-section .mobile-center {
     text-align: center;
@@ -1075,6 +1076,7 @@
     text-align: center;
     float: none;
     margin-bottom: 10vh;
+    height: 55vw;
   }
   .book-section .mobile-center {
     text-align: center;
