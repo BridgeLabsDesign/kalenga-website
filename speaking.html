@@ -29,10 +29,15 @@
 <body id="page-top" class="speaking-page">
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="/">
-        <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
-      </a>
+    <div class="mobile container padding-reduce">
+      <div class="mobile-menu-container">
+        <img id="hamburger-toggle" onclick="openNav()" src="img/menu.svg" />
+      </div>
+      <div class="mobile-logo-container">
+        <img class="musa-logo-mobile" src='img/logo-black.png' />
+      </div>
+    </div>
+    <div class="desktop container padding-reduce">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -40,6 +45,9 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbar-brand js-scroll-trigger" href="/">
+          <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
+        </a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/">About</a>
@@ -62,7 +70,23 @@
   </nav>
 
   <header id="speaking-header" class="masthead speaking-bg container">
-    <div id="header-container" class="header-container">
+    <div class="header-mobile-container mobile">
+      <div class="header-mobile-text">
+        <span class="title-text">
+          Musa Kalenga is an entrepreneur, investor, keynote speaker and author.
+        </span>
+      </div>
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+      <div class="mobile-contact-row">
+        <img class="mobile-contact-image mr" src="img/tiles/mobile/book.png">
+        <img class="mobile-contact-image" src="img/tiles/mobile/contact.png">
+      </div>
+    </div>
+    <div id="header-container" class="header-container desktop">
       <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
         <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
           <div style="display: flex;flex: 1;flex-direction: column;">
@@ -120,11 +144,11 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section  container">
+  <section id="about" class="about-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 mx-auto about-text">
-          <span>
+          <p class="intro-detail">
             As a respected thought leader in the marketing industry, Musa advises on digital marketing strategy for
             businesses with his Marketing in a Digital World Executive Programme. Musa is also known for his informative
             and insightful storytelling style, which he shares through his keynote talks, which have been shared at many
@@ -132,7 +156,7 @@
             his presentation style has also been stated as the ideal blend of stand-up comedy and academic rhetoric. He
             has also been praised for his modesty and ability to condense and communicate complex topics in a relatable
             way.
-          </span>
+          </p>
         </div>
         <div class="col-lg-6 mx-auto">
           <div class="accordion" id="accordionExample">
@@ -204,7 +228,7 @@
   </section>
 
   <!-- Keynote Section -->
-  <section id="book" class="book-section container">
+  <section id="book" class="book-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-11 col-md-11 col-sm-11
@@ -271,7 +295,7 @@
       </div>
     </div>
   </section>
-  <section id="keynote" class="about-section  container">
+  <section id="keynote" class="about-section">
     <div class="container">
       <div class="row">
         <div class="text-center">
@@ -285,7 +309,7 @@
     </div>
   </section>
 
-  <section id="footer" class="keynote-footer-section  container">
+  <section id="footer" class="keynote-footer-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">

@@ -95,20 +95,21 @@
 
 .masthead {
   @media (max-width: 992px) {
-    .mobile{display:flex !important;flex:1;}
-    .desktop{display:none;}
+    .mobile{display:flex;flex:1;}
+    .desktop{display:none !important;}
   }
   
   @media (min-width: 993px) {
-    .desktop{display:block !important;}
+    .desktop{display:block;}
+    .mobile{display:none !important;}
   }
   
   .mobile{
-    display:none;
+    display:block;
   }
   
   .desktop{
-    display:none;
+    display:block;
   }
 
   .header-mobile-container{
@@ -119,9 +120,10 @@
 
   .header-mobile-text{
     flex: 1;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     text-align: center;
+    display: flex;
   }
 
 
