@@ -97,11 +97,13 @@
   @media (max-width: 992px) {
     .mobile{display:flex;flex:1;}
     .desktop{display:none !important;}
+    .mobile-contact-row{display:flex;}
   }
   
   @media (min-width: 993px) {
     .desktop{display:block;}
     .mobile{display:none !important;}
+    .mobile-contact-row{display:none !important;}
   }
   
   .mobile{
@@ -110,6 +112,10 @@
   
   .desktop{
     display:block;
+  }
+
+  .mobile-contact-row{
+    display:flex;
   }
 
   .header-mobile-container{

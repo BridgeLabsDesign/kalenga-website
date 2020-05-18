@@ -312,6 +312,9 @@
   .masthead .desktop {
     display: none !important;
   }
+  .masthead .mobile-contact-row {
+    display: flex;
+  }
 }
 
 @media (min-width: 993px) {
@@ -319,6 +322,9 @@
     display: block;
   }
   .masthead .mobile {
+    display: none !important;
+  }
+  .masthead .mobile-contact-row {
     display: none !important;
   }
 }
@@ -329,6 +335,10 @@
 
 .masthead .desktop {
   display: block;
+}
+
+.masthead .mobile-contact-row {
+  display: flex;
 }
 
 .masthead .header-mobile-container {
