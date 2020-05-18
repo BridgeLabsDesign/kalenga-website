@@ -150,12 +150,6 @@
   display: flex;
 }
 
-@media (max-width: 599px) {
-  #mainFooter {
-    display: none !important;
-  }
-}
-
 #mainFooter .footer-toggler {
   font-size: 80%;
   color: #64a19d;
@@ -1087,6 +1081,7 @@
   }
   .book-section .mobile-center {
     text-align: center;
+    display: block;
   }
 }
 
