@@ -234,19 +234,19 @@
     background-size: cover !important;
   }
   .speaking-bg {
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking-mobile.png") no-repeat center center fixed !important;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-speaking-mobile.png") !important;
     background-size: cover !important;
   }
   .thoughtleadership-bg {
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-thoughtleadership-mobile.png") no-repeat center center fixed !important;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-thoughtleadership-mobile.png") !important;
     background-size: cover !important;
   }
   .keynote-bg {
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-keynote-mobile.png") no-repeat center center fixed !important;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-keynote-mobile.png") !important;
     background-size: cover !important;
   }
   .contact-bg {
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-contact-mobile.png") no-repeat center center fixed !important;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-contact-mobile.png") !important;
     background-size: cover !important;
   }
 }
@@ -711,7 +711,7 @@
 
 .social-grid .filter-item {
   font-size: 3.5vh;
-  padding: 3vh;
+  padding: 2vh;
   color: black;
   cursor: pointer;
 }
@@ -778,12 +778,18 @@
 }
 
 @media (max-width: 992px) {
+  .social-grid .filter-item {
+    font-size: 2.7vh;
+  }
   .social-grid .column {
     width: 50%;
   }
 }
 
 @media (max-width: 599px) {
+  .social-grid .filter-item {
+    font-size: 2vh;
+  }
   .social-grid .column {
     width: 100%;
   }

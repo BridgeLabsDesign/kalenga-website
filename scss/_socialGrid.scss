@@ -19,7 +19,7 @@ scale:90%;
 
 .filter-item{
   font-size:3.5vh;
-  padding:3vh;
+  padding:2vh;
   color: black;
   cursor:pointer;
 }
@@ -91,12 +91,18 @@ scale:90%;
 }
 
 @media (max-width: 992px) {
+  .filter-item{
+    font-size:2.7vh;
+  }
   .column {
     width: 50%;
   }
 }
 
 @media (max-width: 599px) {
+  .filter-item{
+    font-size:2vh;
+  }
   .column {
     width: 100%;
   }
