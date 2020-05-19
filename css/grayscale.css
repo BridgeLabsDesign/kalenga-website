@@ -776,6 +776,18 @@
   margin-top: 8px;
 }
 
+@media (max-width: 992px) {
+  .social-grid .column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 599px) {
+  .social-grid .column {
+    width: 100%;
+  }
+}
+
 .social-grid .col-span {
   width: 50%;
 }
