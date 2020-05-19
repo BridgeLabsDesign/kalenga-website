@@ -95,19 +95,23 @@
 
 .masthead {
   @media (max-width: 992px) {
+    display:flex;
+    .videoBG{display:none;}
     .mobile{display:flex;flex:1;}
     .desktop{display:none !important;}
     .mobile-contact-row{display:flex;}
   }
   
   @media (min-width: 993px) {
+    display:block;
+    .videoBG{display:inline;}
     .desktop{display:block;}
     .mobile{display:none !important;}
     .mobile-contact-row{display:none !important;}
   }
   
   .mobile{
-    display:block;
+    display:flex;
   }
   
   .desktop{

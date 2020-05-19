@@ -305,6 +305,12 @@
 }
 
 @media (max-width: 992px) {
+  .masthead {
+    display: flex;
+  }
+  .masthead .videoBG {
+    display: none;
+  }
   .masthead .mobile {
     display: flex;
     flex: 1;
@@ -318,6 +324,12 @@
 }
 
 @media (min-width: 993px) {
+  .masthead {
+    display: block;
+  }
+  .masthead .videoBG {
+    display: inline;
+  }
   .masthead .desktop {
     display: block;
   }
@@ -330,7 +342,7 @@
 }
 
 .masthead .mobile {
-  display: block;
+  display: flex;
 }
 
 .masthead .desktop {
