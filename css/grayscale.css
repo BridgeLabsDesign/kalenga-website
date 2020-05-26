@@ -790,6 +790,7 @@
 @media (max-width: 599px) {
   .social-grid .filter-item {
     font-size: 2vh;
+    padding: 1vh;
   }
   .social-grid .column {
     width: 100%;
