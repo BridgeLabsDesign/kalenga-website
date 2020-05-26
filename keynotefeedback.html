@@ -27,18 +27,30 @@
 
 <body id="page-top" class="keynote-page">
   <!-- Navigation -->
+  <div id="myNav" class="overlay-menu">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/">Home</a>
+      <a href="/speaking.html">Speaking</a>
+      <a href="/thoughtleadership.html.html">Media</a>
+      <a href="/keynotefeedback.html">Keynote Feedback</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="/">
-        <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
-      </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
+    <div class="mobile container padding-reduce">
+      <div class="mobile-menu-container">
+        <img id="hamburger-toggle" onclick="openNav()" src="img/menu.svg" />
+      </div>
+      <div class="mobile-logo-container">
+        <img class="musa-logo-mobile" src='img/logo-black.png' />
+      </div>
+    </div>
+    <div class="desktop container padding-reduce">
       <div class="collapse navbar-collapse" id="navbarResponsive">
+        <a class="navbar-brand js-scroll-trigger" href="/">
+          <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
+        </a>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="/">About</a>
@@ -61,7 +73,25 @@
   </nav>
 
   <header id="keynote-header" class="masthead  keynote-bg container">
-    <div id="header-container" class="header-container">
+    <div class="header-mobile-container mobile">
+      <div class="header-mobile-text">
+        <span class="title-text">
+          Thank you for attending my latest keynote. As my keynotes focus on similar themes but evolve and grow over
+          time, I’d love to hear your feedback. Please feel free to share all your thoughts and suggestions in the
+          multiple choice form below:
+        </span>
+      </div>
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+      <div class="mobile-contact-row">
+        <img class="mobile-contact-image mr" src="img/tiles/mobile/book.png">
+        <img class="mobile-contact-image" src="img/tiles/mobile/contact.png">
+      </div>
+    </div>
+    <div id="header-container" class="header-container desktop">
       <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
         <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
           <div style="display: flex;flex: 1;flex-direction: column;">
