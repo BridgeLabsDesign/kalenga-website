@@ -65,5 +65,29 @@
       color: white;
     }
   }
+
+  .mobile{
+    display:none;
+  }
+  
+  .desktop{
+    display:none;
+  }
+
+  .footer-mobile-container{
+    text-align: center;
+  }
+
+
+
+  @media (max-width: 992px) {
+    .mobile{display:flex !important;flex:1; justify-content: center;}
+    .desktop{display:none;}
+    .footer-nav{flex-direction: column;}
+  }
+  
+  @media (min-width: 993px) {
+    .desktop{display:flex !important;}
+  }
   
 }
