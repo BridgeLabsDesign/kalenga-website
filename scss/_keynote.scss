@@ -66,13 +66,13 @@
 
   .keynote-img{
     display:flex;
-    flex:0.3;
-    justify-content: flex-end;
+    flex:1;
+    justify-content: center;
   }
 
   .keynote-text-container{
     display:flex;
-    flex:0.4;
+    flex:1;
     flex-direction: column;
     justify-content: center;
   }
@@ -113,6 +113,20 @@
     margin-left: 0;
     color:white;
     font-size: 3vh;
+  }
+
+  @media (max-width: 992px) {
+    .keynote-container{
+      flex-direction: column;
+    }
+    .keynote-text{margin-top:5vh;text-align: center;}
+  }
+  
+  @media (min-width: 993px) {
+    .keynote-container{
+      flex-direction: row;
+    }
+    .keynote-text{margin-top:none;text-align: justify;}
   }
 
 }

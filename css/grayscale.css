@@ -946,13 +946,13 @@
 
 .keynote-page .keynote-img {
   display: flex;
-  flex: 0.3;
-  justify-content: flex-end;
+  flex: 1;
+  justify-content: center;
 }
 
 .keynote-page .keynote-text-container {
   display: flex;
-  flex: 0.4;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
 }
@@ -993,6 +993,26 @@
   margin-left: 0;
   color: white;
   font-size: 3vh;
+}
+
+@media (max-width: 992px) {
+  .keynote-page .keynote-container {
+    flex-direction: column;
+  }
+  .keynote-page .keynote-text {
+    margin-top: 5vh;
+    text-align: center;
+  }
+}
+
+@media (min-width: 993px) {
+  .keynote-page .keynote-container {
+    flex-direction: row;
+  }
+  .keynote-page .keynote-text {
+    margin-top: none;
+    text-align: justify;
+  }
 }
 
 .book-section {
