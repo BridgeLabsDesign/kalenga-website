@@ -1258,9 +1258,17 @@
   padding: 1vh;
   padding-right: 1vh;
   padding-left: 1vh;
-  padding-left: 6vh;
-  padding-right: 6vh;
   width: 30%;
+}
+
+.contact-page .submit-btn-mobile {
+  border-color: #0024b1 !important;
+  color: #0024b1;
+}
+
+.contact-page .submit-btn-mobile:hover {
+  color: white;
+  background-color: #0024b1;
 }
 
 .contact-page .card {
@@ -1301,6 +1309,31 @@
 
 .contact-page .social a:active {
   color: #fff;
+}
+
+@media (max-width: 992px) {
+  .contact-page .mobile {
+    display: flex !important;
+    flex: 1;
+  }
+  .contact-page .desktop {
+    display: none;
+  }
+  .contact-page .email-fields-container {
+    flex: 1;
+  }
+}
+
+@media (min-width: 993px) {
+  .contact-page .mobile {
+    display: none !important;
+  }
+  .contact-page .desktop {
+    display: flex !important;
+  }
+  .contact-page .email-fields-container {
+    flex: 0.4;
+  }
 }
 
 @font-face {

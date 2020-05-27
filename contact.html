@@ -101,7 +101,7 @@
 
   <section id="keynote" class="container">
     <div class="container">
-      <div class="email-container">
+      <div class="email-container desktop">
         <div class="email-details">
           <span>
             Musa Kalenga<br />
@@ -131,6 +131,33 @@
               placeholder="Type your message" rows="3"></textarea>
             <input type="text" class="form-control name-input" placeholder="Name">
             <button type="button" class="btn submit-btn">Send</button>
+          </div>
+        </div>
+      </div>
+      <div class="email-container mobile">
+        <div class="email-fields-container">
+          <div class="email-fields">
+            <div class="dropdown-intro-text">
+              <span>Hi Musa</span>
+            </div>
+            <div class="dropdown-row">
+              <span class="dropdown-text">I want to: </span>
+              <div class="dropdown dropdown-container">
+                <button class="btn dropdown-contact" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item">Book you</a>
+                  <a class="dropdown-item">Write a testimonial</a>
+                  <a class="dropdown-item">Say hi</a>
+                </div>
+              </div>
+            </div>
+            <textarea class="form-control message-input" id="exampleFormControlTextarea1"
+              placeholder="Type your message" rows="3"></textarea>
+            <input type="text" class="form-control name-input" placeholder="Name">
+            <button type="button" class="btn submit-btn desktop">Send</button>
+            <button type="button" class="btn btn-outline-primary submit-btn-mobile btn-lg btn-block">Send</button>
           </div>
         </div>
       </div>
