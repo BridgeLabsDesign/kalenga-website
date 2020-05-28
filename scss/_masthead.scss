@@ -129,9 +129,9 @@
   }
 
   .header-mobile-text{
-    flex: 1;
+    flex: 0.5;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
     display: flex;
   }
@@ -261,10 +261,10 @@
 
   .title-header{
     color:white;
-    font-size: 3vh;
+    font-size: 4vh;
     line-height: 3.5vh;
     font-weight: 600;
-    margin-bottom:2vh;
+    margin-bottom:4vh;
   }
 
   .title-text{
