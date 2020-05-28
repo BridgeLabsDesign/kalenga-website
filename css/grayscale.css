@@ -778,6 +778,14 @@
   text-decoration: underline;
 }
 
+.speaking-page .collapse-container {
+  text-align: center;
+}
+
+.speaking-page .card-text-mobile {
+  text-align: justify;
+}
+
 .speaking-page .keynote-footer-text {
   margin: 20vh;
   margin-left: 0;
