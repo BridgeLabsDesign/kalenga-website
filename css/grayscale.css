@@ -164,6 +164,14 @@
   display: flex;
 }
 
+#mainFooter .footer-icon-margin {
+  padding-bottom: 2vh !important;
+}
+
+#mainFooter .footer-social-icon {
+  width: 3.5vh;
+}
+
 #mainFooter .footer-brand {
   color: #161616;
   font-weight: 700;
@@ -173,6 +181,10 @@
   list-style: none;
   margin-bottom: 0;
   display: flex;
+}
+
+#mainFooter .footer-nav .footer-item {
+  padding: 0.5vh;
 }
 
 #mainFooter .footer-nav .footer-item:hover {
@@ -205,6 +217,22 @@
 }
 
 #mainFooter .footer-link:active {
+  color: white;
+}
+
+#mainFooter .footer-link-contact {
+  padding-right: .5rem;
+  font-size: 2.6vh !important;
+  padding-left: .5rem;
+  transition: none;
+  color: white;
+}
+
+#mainFooter .footer-link-contact:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#mainFooter .footer-link-contact:active {
   color: white;
 }
 
