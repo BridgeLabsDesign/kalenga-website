@@ -9,6 +9,26 @@ $(document).ready(function () {
     document.getElementById("myNav").style.width = "0%";
   });
 
+  $('#talk-1-expand').on("click", function () {
+    $('#text-1').fadeToggle(1000).removeClass('hide-display');
+    $('#book-speaker-1').fadeToggle(1000).removeClass('hide-display');
+  });
+
+  $('#talk-2-expand').on("click", function () {
+    $('#text-2').fadeToggle(1000).removeClass('hide-display');
+    $('#book-speaker-2').fadeToggle(1000).removeClass('hide-display');
+  });
+
+  $('#talk-3-expand').on("click", function () {
+    $('#text-3').fadeToggle(1000).removeClass('hide-display');
+    $('#book-speaker-3').fadeToggle(1000).removeClass('hide-display');
+  });
+
+  $('#talk-4-expand').on("click", function () {
+    $('#text-4').fadeToggle(1000).removeClass('hide-display');
+    $('#book-speaker-4').fadeToggle(1000).removeClass('hide-display');
+  });
+
   $('#tile-one').hover(function () {
     $('#tile-one-link').addClass('active-tile');
     $('#tile-one').addClass('bolden');
