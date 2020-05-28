@@ -178,6 +178,7 @@
 }
 
 #mainFooter .footer-nav {
+  margin-left: -5vh;
   list-style: none;
   margin-bottom: 0;
   display: flex;
