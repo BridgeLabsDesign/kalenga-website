@@ -135,4 +135,10 @@
   }
 }
 
+@media (max-width: 599px) {
+  .carousel-indicators{
+    bottom:-4vh;
+  }
+}
+
 }
