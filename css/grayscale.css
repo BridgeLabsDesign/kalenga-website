@@ -966,7 +966,8 @@
     padding: 1vh;
   }
   .social-grid .column {
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
   }
 }
 
