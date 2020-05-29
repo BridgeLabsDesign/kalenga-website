@@ -10,21 +10,49 @@ $(document).ready(function () {
   });
 
   $('#talk-1-expand').on("click", function () {
+    if (!$(this).hasClass('expanded')) {
+      $("#talk-1-expand").attr("src", "../img/contract-btn.png");
+      $(this).addClass('expanded');
+    } else {
+      $("#talk-1-expand").attr("src", "../img/expand-btn.png");
+      $(this).removeClass('expanded');
+    }
     $('#text-1').fadeToggle(1000).removeClass('hide-display');
     $('#book-speaker-1').fadeToggle(1000).removeClass('hide-display');
   });
 
   $('#talk-2-expand').on("click", function () {
+    if (!$(this).hasClass('expanded')) {
+      $("#talk-2-expand").attr("src", "../img/contract-btn.png");
+      $(this).addClass('expanded');
+    } else {
+      $("#talk-2-expand").attr("src", "../img/expand-btn.png");
+      $(this).removeClass('expanded');
+    }
     $('#text-2').fadeToggle(1000).removeClass('hide-display');
     $('#book-speaker-2').fadeToggle(1000).removeClass('hide-display');
   });
 
   $('#talk-3-expand').on("click", function () {
+    if (!$(this).hasClass('expanded')) {
+      $("#talk-3-expand").attr("src", "../img/contract-btn.png");
+      $(this).addClass('expanded');
+    } else {
+      $("#talk-3-expand").attr("src", "../img/expand-btn.png");
+      $(this).removeClass('expanded');
+    }
     $('#text-3').fadeToggle(1000).removeClass('hide-display');
     $('#book-speaker-3').fadeToggle(1000).removeClass('hide-display');
   });
 
   $('#talk-4-expand').on("click", function () {
+    if (!$(this).hasClass('expanded')) {
+      $("#talk-4-expand").attr("src", "../img/contract-btn.png");
+      $(this).addClass('expanded');
+    } else {
+      $("#talk-4-expand").attr("src", "../img/expand-btn.png");
+      $(this).removeClass('expanded');
+    }
     $('#text-4').fadeToggle(1000).removeClass('hide-display');
     $('#book-speaker-4').fadeToggle(1000).removeClass('hide-display');
   });
