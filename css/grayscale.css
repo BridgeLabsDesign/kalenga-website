@@ -336,6 +336,7 @@
 
 .videoBG {
   visibility: hidden;
+  width: 100%;
 }
 
 .videoActive {
@@ -346,10 +347,63 @@
   visibility: hidden;
 }
 
+.btn-stop {
+  width: 11.25vh;
+  height: 11.25vh;
+  margin-bottom: 3vh;
+}
+
+.btn-play {
+  width: 11.25vh;
+  height: 11.25vh;
+  margin-bottom: 3vh;
+}
+
+.top-tiles-container {
+  display: flex;
+  flex-direction: row;
+  flex: 0.6;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.bottom-tiles-container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.musa-logo-tile {
+  width: 35vh;
+  height: 30vh;
+  cursor: pointer;
+}
+
 .header-container {
   bottom: 0;
   position: absolute;
   width: 100%;
+}
+
+.header-text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-text-container-inner {
+  display: flex;
+  flex: 0.4;
+  flex-direction: row;
+  margin-bottom: 5vh;
+}
+
+.header-text-container-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .masthead {
@@ -448,10 +502,27 @@
   margin: 0 auto;
 }
 
+.masthead .tile-container-inner-booking {
+  width: 30vh;
+  height: 25vh;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .masthead .tile-icon {
   margin-bottom: 1vh;
   width: 4vh;
   height: 4vh;
+}
+
+.masthead .tile-icon-booking {
+  margin-bottom: 1vh;
+  width: 8vh;
+  height: 8vh;
 }
 
 .masthead .tile-title-text {
@@ -461,6 +532,15 @@
   letter-spacing: 0;
   margin: 0;
   margin-bottom: 1vh;
+}
+
+.masthead .tile-title-text-booking {
+  font-size: 2.5vh;
+  color: white;
+  line-height: 2vh;
+  letter-spacing: 0;
+  margin: 0;
+  margin-top: 1vh;
 }
 
 .masthead .arrow-right {
@@ -859,7 +939,7 @@
 }
 
 .social-grid {
-  /* quick grid */
+  /* 90% width in order to create a container effect for the grid*/
   scale: 90%;
   /* Bootstrap-style columns */
   /* default styles so shuffle doesn't have to set them (it will if they're missing) */
@@ -1423,6 +1503,17 @@
   flex-direction: column;
 }
 
+.contact-page .contact-container {
+  display: flex;
+}
+
+.contact-page .contact-header-text-container {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .contact-page .submit-btn {
   background-color: #0024B1;
   color: white;
@@ -1714,6 +1805,10 @@ a:focus, a:hover {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+}
+
+.active-link {
+  font-weight: 700;
 }
 
 .overlay-menu a {

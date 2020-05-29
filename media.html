@@ -33,7 +33,7 @@
     <div class="overlay-content">
       <a href="/">Home</a>
       <a href="/speaking.html">Speaking</a>
-      <a href="/thoughtleadership.html">Media</a>
+      <a href="/media.html">Media</a>
       <a href="/keynotefeedback.html">Keynote Feedback</a>
       <a href="/contact.html">Contact</a>
     </div>
@@ -60,7 +60,7 @@
             <a class="nav-link" href="/speaking.html">Speaking</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/thoughtleadership.html">Media</a>
+            <a class="nav-link active-link" href="/media.html">Media</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/keynotefeedback.html">Keynote Feedback</a>
@@ -98,10 +98,11 @@
         </a>
       </div>
     </div>
+
     <div id="header-container" class="header-container desktop">
-      <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
-        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
-          <div style="display: flex;flex: 1;flex-direction: column;">
+      <div class="header-text-container">
+        <div class="header-text-container-inner">
+          <div class="header-text-container-column">
             <span class="title-header">
               MEDIA
             </span>
@@ -111,12 +112,20 @@
             </span>
           </div>
         </div>
-        <div style="display: flex;flex-direction: row;flex: 0.6;justify-content: flex-end;align-items: flex-end;">
-          <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/1.png" alt="">
-          <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/2.png" alt="">
+        <div class="top-tiles-container">
+          <img class="musa-logo-tile" src="img/tiles/1.png">
+          <a href="https://www.amazon.com/Ladders-Trampolines-Anecdotes-Observations-Contemporary-ebook/dp/B07SRGS3GD"
+            id="booking-tile" class="tile-container-outer">
+            <div class="tile-container-inner-booking">
+              <img class="tile-icon-booking" src="img/tiles/tile-icons/buy-book.svg">
+              <span class="tile-title-text-booking">
+                Buy Book
+              </span>
+            </div>
+          </a>
         </div>
       </div>
-      <div style="display: flex;flex-direction: row;flex: 1;justify-content: flex-end;">
+      <div class="bottom-tiles-container">
         <div id="tile-one" class="tile-container-outer">
           <div class="tile-container-inner">
             <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
@@ -154,6 +163,7 @@
         </div>
       </div>
     </div>
+
   </header>
 
 
@@ -436,7 +446,7 @@
           <a class="footer-link" href="/speaking.html">Speaking</a>
         </li>
         <li class="footer-item">
-          <a class="footer-link" href="/thoughtleadership.html">Media</a>
+          <a class="footer-link active-link" href="/media.html">Media</a>
         </li>
         <li class="footer-item">
           <a class="footer-link" href="/keynotefeedback.html">Keynote Feedback</a>

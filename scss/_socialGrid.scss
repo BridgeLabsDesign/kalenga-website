@@ -1,5 +1,5 @@
 .social-grid {
-/* quick grid */
+/* 90% width in order to create a container effect for the grid*/
 scale:90%;
 .container {
   width: 93%;
@@ -106,6 +106,7 @@ scale:90%;
     padding:1vh;
   }
   .column {
+    //90% width for container effect, and 5% left margin to center it - leaving a 5% margin on the right
     width: 90%;
     margin-left:5%;
   }

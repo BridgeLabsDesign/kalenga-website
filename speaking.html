@@ -33,7 +33,7 @@
     <div class="overlay-content">
       <a href="/">Home</a>
       <a href="/speaking.html">Speaking</a>
-      <a href="/thoughtleadership.html">Media</a>
+      <a href="/media.html">Media</a>
       <a href="/keynotefeedback.html">Keynote Feedback</a>
       <a href="/contact.html">Contact</a>
     </div>
@@ -57,10 +57,10 @@
             <a class="nav-link" href="/">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/speaking.html">Speaking</a>
+            <a class="nav-link active-link" href="/speaking.html">Speaking</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/thoughtleadership.html">Media</a>
+            <a class="nav-link" href="/media.html">Media</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/keynotefeedback.html">Keynote Feedback</a>
@@ -99,10 +99,11 @@
         </a>
       </div>
     </div>
+
     <div id="header-container" class="header-container desktop">
-      <div style="flex: 1;display: flex;flex-direction: row;justify-content: space-between;">
-        <div style="display: flex;flex: 0.4;flex-direction: row;margin-bottom: 5vh;">
-          <div style="display: flex;flex: 1;flex-direction: column;">
+      <div class="header-text-container">
+        <div class="header-text-container-inner">
+          <div class="header-text-container-column">
             <span class="title-header">SPEAKING</span>
             <span class="title-text">
               Musa Kalenga is an enthusiastic entrepreneur who is passionate about using technology to empower the
@@ -111,12 +112,19 @@
               platforms to support this growth.</span>
           </div>
         </div>
-        <div style="display: flex;flex-direction: row;flex: 0.6;justify-content: flex-end;align-items: flex-end;">
-          <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/1.png" alt="">
-          <img style="width:35vh; height:30vh;cursor:pointer;" src="img/tiles/2.png" alt="">
+        <div class="top-tiles-container">
+          <img class="musa-logo-tile" src="img/tiles/1.png">
+          <a href="/contact.html" id="booking-tile" class="tile-container-outer">
+            <div class="tile-container-inner-booking">
+              <img class="tile-icon-booking" src="img/tiles/tile-icons/booking.svg">
+              <span class="tile-title-text-booking">
+                Book Now
+              </span>
+            </div>
+          </a>
         </div>
       </div>
-      <div style="display: flex;flex-direction: row;flex: 1;justify-content: flex-end;">
+      <div class="bottom-tiles-container">
         <div id="tile-one" class="tile-container-outer">
           <div class="tile-container-inner">
             <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
@@ -154,6 +162,7 @@
         </div>
       </div>
     </div>
+
   </header>
 
 
@@ -382,10 +391,10 @@
           <a class="footer-link" href="/">About</a>
         </li>
         <li class="footer-item">
-          <a class="footer-link" href="/speaking.html">Speaking</a>
+          <a class="footer-link active-link" href="/speaking.html">Speaking</a>
         </li>
         <li class="footer-item">
-          <a class="footer-link" href="/thoughtleadership.html">Media</a>
+          <a class="footer-link" href="/media.html">Media</a>
         </li>
         <li class="footer-item">
           <a class="footer-link" href="/keynotefeedback.html">Keynote Feedback</a>
