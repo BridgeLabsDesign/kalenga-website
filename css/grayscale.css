@@ -992,9 +992,9 @@
   display: block;
   width: 100%;
   max-width: none;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  height: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .social-grid *,
