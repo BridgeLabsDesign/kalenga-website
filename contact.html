@@ -23,6 +23,9 @@
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
 
+  <!-- import email service -->
+  <script src="js/contact.js"></script>
+
 </head>
 
 <body id="page-top" class="contact-page">
@@ -112,46 +115,53 @@
           </span>
         </div>
         <div class="email-fields-container">
-          <div class="email-fields">
-            <div class="dropdown-intro-text">
-              <span>Hi Musa</span>
+          <form id="contactForm" name="contact" role="form" method="POST" id="reused_form" data-netlify="true">
+            <div class="email-fields">
+              <div class="dropdown-intro-text">
+                <span>Hi Musa</span>
+              </div>
+              <div class="dropdown-row">
+                <span class="dropdown-text">I want to: </span>
+                <select class="form-control" id="categoryInput" name="category">
+                  <option value="booking">Book you</option>
+                  <option value="testimonial">Write a testimonial</option>
+                  <option value="greetings">Say hi</option>
+                </select>
+              </div>
+              <textarea class="form-control message-input" id="message" name="message" placeholder="Type your message"
+                rows="3"></textarea>
+              <input id="name" type="text" class="form-control name-input" placeholder="Your full name">
+              <input id="email" type="text" class="form-control email-input" placeholder="Your email Address">
+              <button type="button" class="btn submit-btn" id="submitFormButton" type="submit">Send</button>
             </div>
-            <div class="dropdown-row">
-              <span class="dropdown-text">I want to: </span>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>Book you</option>
-                <option>Write a testimonial</option>
-                <option>Say hi</option>
-              </select>
-            </div>
-            <textarea class="form-control message-input" id="exampleFormControlTextarea1"
-              placeholder="Type your message" rows="3"></textarea>
-            <input type="text" class="form-control name-input" placeholder="Name">
-            <button type="button" class="btn submit-btn">Send</button>
-          </div>
+          </form>
         </div>
       </div>
       <div class="email-container mobile">
         <div class="email-fields-container">
-          <div class="email-fields">
-            <div class="dropdown-intro-text">
-              <span>Hi Musa</span>
+          <form id="contactForm" name="contact" role="form" method="POST" id="reused_form" data-netlify="true">
+            <div class="email-fields">
+              <div class="dropdown-intro-text">
+                <span>Hi Musa</span>
+              </div>
+              <div class="dropdown-row">
+                <span class="dropdown-text">I want to: </span>
+                <select class="form-control" id="categoryInput" name="category">
+                  <option value="booking">Book you</option>
+                  <option value="testimonial">Write a testimonial</option>
+                  <option value="greetings">Say hi</option>
+                </select>
+              </div>
+              <textarea class="form-control message-input" id="message" name="message" placeholder="Type your message"
+                rows="3"></textarea>
+              <input id="name" type="text" class="form-control name-input" placeholder="Your full name">
+              <input id="email" type="text" class="form-control email-input" placeholder="Your email Address">
+              <button type="button" id="submitFormButton" type="submit"
+                class="btn btn-outline-primary submit-btn-mobile btn-lg btn-block">Send</button>
             </div>
-            <div class="dropdown-row">
-              <span class="dropdown-text">I want to: </span>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>Book you</option>
-                <option>Write a testimonial</option>
-                <option>Say hi</option>
-              </select>
-            </div>
-            <textarea class="form-control message-input" id="exampleFormControlTextarea1"
-              placeholder="Type your message" rows="3"></textarea>
-            <input type="text" class="form-control name-input" placeholder="Name">
-            <button type="button" class="btn submit-btn desktop">Send</button>
-            <button type="button" class="btn btn-outline-primary submit-btn-mobile btn-lg btn-block">Send</button>
-          </div>
+          </form>
         </div>
+
       </div>
     </div>
   </section>
@@ -218,6 +228,7 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
