@@ -1,4 +1,31 @@
 .speaking-page {
+
+
+  // speaking modal
+  .modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+  }
+
+
+
+  .modal-body {
+  position:relative;
+  padding:0px;
+  }
+  .close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+  }
+  //////////////////
+
+
   color:black;
   .section-header-text{
     font-size: 5vh;
@@ -26,6 +53,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .mobile-card-container{
+    text-align: center;
   }
 
   .watch-video:hover{

@@ -183,6 +183,26 @@
     </div>
   </section>
 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
+              allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <!-- About Section -->
   <section id="about">
     <div class="container">
@@ -203,8 +223,9 @@
                 assessment framework applicable to mental readiness and business agility. These tools will help SME’s
                 fully embrace the opportunity to truly reinvent themselves in “The New Normal”.
               </span>
-              <a class="watch-video" href="https://www.youtube.com/watch?v=0X_oKK6BQ_s">Watch
-                Video</a>
+              <span class="watch-video video-btn" data-toggle="modal" data-target="#myModal"
+                data-src="https://www.youtube.com/embed/0X_oKK6BQ_s">Watch
+                Video</span>
             </div>
           </div>
           <div class="talk-booking-container">
@@ -226,8 +247,9 @@
                 The world is in the eye of the storm when it comes to data and connectivity. To keep sane in this
                 unpredictable time, Musa shares insights into how he sees the world changing as the storm develops.
               </span>
-              <a class="watch-video" href="https://www.youtube.com/watch?v=Xh2KLyI0cCs">Watch
-                Video</a>
+              <span class="watch-video video-btn" data-toggle="modal" data-target="#myModal"
+                data-src="https://www.youtube.com/embed/Xh2KLyI0cCs">Watch
+                Video</span>
             </div>
           </div>
           <div class="talk-booking-container">
@@ -251,8 +273,9 @@
                 qualities that make us human, we can therefore create more powerful brands, that truly speak to the
                 needs of your target audience.
               </span>
-              <a class="watch-video" href="https://www.youtube.com/watch?v=Xh2KLyI0cCs">Watch
-                Video</a>
+              <span class="watch-video video-btn" data-toggle="modal" data-target="#myModal"
+                data-src="https://www.youtube.com/embed/cnJjTP7r3KM">Watch
+                Video</span>
             </div>
           </div>
           <div class="talk-booking-container">
@@ -276,8 +299,9 @@
                 approach also means using data insights and intelligence to drive decision making that can ensure that
                 your organisation can consistently create business value in the long term.
               </span>
-              <a class="watch-video" href="https://www.youtube.com/watch?v=rTZ10lti3jI&t=7s">Watch
-                Video</a>
+              <span class="watch-video video-btn" data-toggle="modal" data-target="#myModal"
+                data-src="https://www.youtube.com/embed/rTZ10lti3jI">Watch
+                Video</span>
             </div>
           </div>
           <div class="talk-booking-container">
@@ -298,7 +322,7 @@
             aria-controls="collapse-1">
             <img src="img/speaking-1.png">
           </a>
-          <div class="collapse collapse-container" id="collapse-1">
+          <div class="collapse collapse-container show" id="collapse-1">
             <div class="card-body card-text-mobile">
               Response framework can be used by SME’s to better navigate the COVID19 pandemic. Broadly, the keynote
               covers the stabilisation of business, Assessment of readiness to change, a guide on How to Pivot and then
@@ -316,7 +340,7 @@
             aria-controls="collapse-2">
             <img src="img/speaking-2.png">
           </a>
-          <div class="collapse collapse-container" id="collapse-2">
+          <div class="collapse collapse-container show" id="collapse-2">
             <div class="card-body card-text-mobile">
               The world is in the eye of the storm when it comes to data and connectivity. To keep sane in this
               unpredictable time, Musa shares insights into how he sees the world changing as the storm develops.
@@ -331,7 +355,7 @@
             aria-controls="collapse-3">
             <img src="img/speaking-3.png">
           </a>
-          <div class="collapse collapse-container" id="collapse-3">
+          <div class="collapse collapse-container show" id="collapse-3">
             <div class="card-body card-text-mobile">
               In this keynote, Musa focuses on the benefits of Human Centred Marketing, and how to use this approach
               to build an Integrated Marketing Strategy. Using creativity as a differentiator, and by focusing on the
@@ -349,7 +373,7 @@
             aria-controls="collapse-4">
             <img src="img/speaking-4.png">
           </a>
-          <div class="collapse collapse-container" id="collapse-4">
+          <div class="collapse collapse-container show" id="collapse-4">
             <div class="card-body card-text-mobile">
               In order to be at the cutting edge of technology, you need to keep pace with a rapidly evolving world.
               This means being able to lead “at the speed of light”, and be able to adapt to constant changes. This

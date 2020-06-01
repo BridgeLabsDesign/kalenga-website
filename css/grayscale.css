@@ -715,6 +715,27 @@
   color: black;
 }
 
+.speaking-page .modal-dialog {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.speaking-page .modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.speaking-page .close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
 .speaking-page .section-header-text {
   font-size: 5vh;
   margin-bottom: 3vh;
@@ -743,6 +764,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.speaking-page .mobile-card-container {
+  text-align: center;
 }
 
 .speaking-page .watch-video:hover {
