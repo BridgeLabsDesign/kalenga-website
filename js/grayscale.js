@@ -91,8 +91,8 @@ $(document).ready(function () {
     $('#header-container-playing').addClass('hide-element');
     $('#home-header').addClass('container');
     $('#home-header').addClass('home-bg');
+    $('#videoBG').trigger('pause');
     $('#videoBG').removeClass('videoActive');
-    $('#videoBG').trigger('stop');
   });
 
   (function ($) {
