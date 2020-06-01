@@ -59,6 +59,13 @@
     text-align: center;
   }
 
+  .mobile-video{
+    margin-top:2vh;
+    margin-bottom:4vh;
+  }
+
+  .watch-video{cursor:pointer;color:#0024b1;}
+
   .watch-video:hover{
     text-decoration: underline;
   }
@@ -156,6 +163,9 @@
 
   .collapse-container{
     text-align: center;
+    flex:1;
+    flex-direction: column;
+    display: flex;
   }
 
   .card-text-mobile{

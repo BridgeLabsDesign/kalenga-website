@@ -770,6 +770,16 @@
   text-align: center;
 }
 
+.speaking-page .mobile-video {
+  margin-top: 2vh;
+  margin-bottom: 4vh;
+}
+
+.speaking-page .watch-video {
+  cursor: pointer;
+  color: #0024b1;
+}
+
 .speaking-page .watch-video:hover {
   text-decoration: underline;
 }
@@ -883,6 +893,9 @@
 
 .speaking-page .collapse-container {
   text-align: center;
+  flex: 1;
+  flex-direction: column;
+  display: flex;
 }
 
 .speaking-page .card-text-mobile {
