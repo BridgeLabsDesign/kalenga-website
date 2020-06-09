@@ -45,7 +45,7 @@ function browserSyncReload(done) {
 
 // Clean vendor
 function clean() {
-  return del(["./vendor/", "./dist"]);
+  return del(["./dist"]);
 }
 
 // Bring third party dependencies from node_modules into vendor directory
@@ -114,6 +114,7 @@ function js() {
     .pipe(browsersync.stream());
 }
 
+// HTML files task
 function html() {
   return gulp
     .src([
@@ -124,6 +125,7 @@ function html() {
     .pipe(browsersync.stream());
 }
 
+// Assets file task
 function assets() {
   return gulp
     .src([
