@@ -8,7 +8,7 @@ $(function () {
     var email = $('input#email').val();
     var message = $('textarea#message').val();
     var recipient = "admin@kalenga.me";
-
+    var cc = "mashkalenga@gmail.com";
 
     $.ajax({
       url: '../php/contact.php',
@@ -18,7 +18,8 @@ $(function () {
         category: category,
         email: email,
         message: message,
-        recipient: recipient
+        recipient: recipient,
+        cc: cc
       },
       cache: false,
       success: function () {

@@ -14,6 +14,7 @@
     $email_address = strip_tags(htmlspecialchars($_POST['email']));
     $message = strip_tags(htmlspecialchars($_POST['message']));
     $recipient = strip_tags(htmlspecialchars($_POST['recipient']));
+    $cc = strip_tags(htmlspecialchars($_POST['cc']));
     
     // Create the email and send the message
     $to = 'admin@kalenga.me'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
@@ -24,6 +25,7 @@
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     $headers .= "From: admin@kalenga.me\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+    $headers .= "Cc: $cc" . "\r\n";
     $headers .= "Reply-To: $email_address";
     mail($to,$email_subject,$email_body,$headers);
     return true;
