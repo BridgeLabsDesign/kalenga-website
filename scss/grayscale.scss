@@ -33,7 +33,7 @@ html{
   height: 55px;
   margin:0 auto;
   margin-top:5vh;
-  margin-bottom:5vh;
+  margin-bottom:80px;
 }
 .mousey {
   width: 3px;
@@ -96,7 +96,7 @@ body {
 
 .container{
   max-width:100%;
-  padding: 5vh;
+  padding: 20px;
 }
 
 // accordion related styling
@@ -196,6 +196,7 @@ a {
 
 .active-link{
   font-weight:700;
+  color: rgba(255,255,255,.9) !important;
 }
 
 .overlay-menu a {
