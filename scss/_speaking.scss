@@ -135,6 +135,13 @@
     border-color: #0024b1 !important;
     color: #0024b1;
   }
+
+  @media (max-width: 992px) {
+    .book-speaker-btn{
+      width: 100%;
+    }
+  }
+
   .book-speaker-btn:hover{
     color:white;
     background-color: #0024b1;
