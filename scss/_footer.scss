@@ -3,7 +3,21 @@
   background: #0024B1;
   font-family: 'Effra';
   padding: 3vh;
-  display:flex;
+  
+  div {
+    a, ul {
+      // display:flex;
+      flex: 1;
+      margin: 0 !important;
+
+      &:last-child {
+        flex: 2;
+        align-items: center;
+        justify-content: flex-end;    
+      }
+    }
+  }
+
 
 
   @media (max-width: 599px) {
