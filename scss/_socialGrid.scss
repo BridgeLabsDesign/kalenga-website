@@ -128,6 +128,14 @@ scale:90%;
 
 .card-body{
   background: #F5F5F5;
+
+  a, a:visited {
+    color: $black;
+  }
+
+  a:hover {
+    color: #616161da;
+  }
 }
 
 
