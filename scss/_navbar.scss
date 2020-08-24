@@ -36,7 +36,7 @@
         outline: none;
         background-color: transparent;
       }
-      &:active,
+      
       &:focus {
         outline: none;
         background-color: transparent;
@@ -51,12 +51,14 @@
       color: fade-out($white, .5);
     }
     .nav-link {
+      padding: 0;
+      margin: 8px;
       transition: none;
       color: fade-out($white, .5);
       &:hover {
         color: fade-out($white, .25);
       }
-      &:active {
+      &:active, &.active-link {
         color: white;
       }
     }
@@ -66,18 +68,18 @@
         color: $black;
       }
       .nav-link {
-        color: $black;
+        color: #3a3a3a;
         border-bottom: 0.25rem solid transparent;
         &:hover {
-          color: $primary;
+          color: $black;
         }
-        &:active {
+        &:active, &.active-link {
           color: darken($primary, 15%);
         }
-        &.active {
-          color: $primary;
+        &.active, &.active-link {
+          color: $black;
           outline: none;
-          border-bottom: 0.25rem solid $primary;
+          border-bottom: 2px solid $black;
         }
       }
     }

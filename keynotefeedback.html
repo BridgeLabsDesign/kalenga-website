@@ -87,11 +87,6 @@
           <div class="scroller"></div>
         </div>
       </div>
-      <div class="mobile-contact-row">
-        <a href="/contact.html">
-          <img class="mobile-contact-image mr" src="img/tiles/mobile/book.png">
-        </a>
-      </div>
     </div>
 
     <div id="header-container" class="header-container desktop">
@@ -120,22 +115,20 @@
       </div>
       <div class="bottom-tiles-container">
         <div id="tile-one" class="tile-container-outer">
-          <a href="/media.html">
-            <div class="tile-container-inner">
-              <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
-              <p class="tile-title-text">
-                RADICAL RACIAL CANDOUR
-                MADE
-                POSSIBLE BY
-                TECHNOLOGY OF OUR TIMES</p>
-              <p class="tile-subtext">
-                Living in South Africa can be an emotional roller-coaster. One minute there are encouraging signs of
-                progression, cohesion and social advance, and the next the fractures in our society reveal themselves in
-                the ugliest ways.
-              </p>
-              <p id="tile-one-link" class="tile-more">Read more</p>
-            </div>
-          </a>
+          <div class="tile-container-inner">
+            <img class="tile-icon" src="img/tiles/tile-icons/pencil.png">
+            <p class="tile-title-text">
+              RADICAL RACIAL CANDOUR
+              MADE
+              POSSIBLE BY
+              TECHNOLOGY OF OUR TIMES</p>
+            <p class="tile-subtext">
+              Living in South Africa can be an emotional roller-coaster. One minute there are encouraging signs of
+              progression, cohesion and social advance, and the next the fractures in our society reveal themselves in
+              the ugliest ways.
+            </p>
+            <p id="tile-one-link" class="tile-more">Read more</p>
+          </div>
         </div>
         <div class="tile-image-container">
           <img class="tile-image" src="img/tiles/4.png">
@@ -166,7 +159,7 @@
   <section id="keynote" class="container">
     <div class="container">
       <div class="keynote-container">
-        <div class="keynote-img">
+        <div class="keynote-img d-none d-md-flex">
           <img style="height:65vh;" src="img/feedback-img.png" alt="" />
         </div>
         <div class="keynote-text-container">
@@ -193,6 +186,27 @@
       <a class="footer-brand js-scroll-trigger" href="#page-top">
         <img id="musa-logo" class="musa-logo" src='../img/logo.png' />
       </a>
+
+      <ul class="footer-nav">
+        <li class="footer-item">
+          <a class="footer-link" href="https://twitter.com/musakalenga">
+            <img class="footer-social-icon" src="img/social/twitter.png">
+          </a>
+          <a class="footer-link" href="https://za.linkedin.com/in/musa-kalenga-31b10523">
+            <img class="footer-social-icon" src="img/social/linkedin.png">
+          </a>
+          <a class="footer-link" href="https://www.instagram.com/musakalenga/">
+            <img class="footer-social-icon" src="img/social/instagram.png">
+          </a>
+          <a class="footer-link" href="https://www.facebook.com/musa.kalenga">
+            <img class="footer-social-icon" src="img/social/facebook.png">
+          </a>
+          <a class="footer-link" href="https://www.youtube.com/c/MusaKalenga/">
+            <img class="footer-social-icon" src="img/social/youtube.png">
+          </a>
+        </li>
+      </ul>
+      
       <ul class="footer-nav ml-auto">
         <li class="footer-item">
           <a class="footer-link" href="/">About</a>
@@ -240,6 +254,9 @@
           <a class="footer-link" href="https://www.facebook.com/musa.kalenga">
             <img class="footer-social-icon" src="img/social/facebook.png">
           </a>
+          <a class="footer-link" href="https://www.youtube.com/c/MusaKalenga/">
+            <img class="footer-social-icon" src="img/social/youtube.png">
+          </a>
         </li>
       </ul>
     </div>
@@ -254,6 +271,16 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176164234-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-176164234-1');
+  </script>
 
 </body>
 

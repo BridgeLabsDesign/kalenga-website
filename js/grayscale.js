@@ -65,6 +65,10 @@ $(document).ready(function () {
       $('#tile-one-link').removeClass('active-tile');
       $('#tile-one').removeClass('bolden');
     });
+  
+  $('#tile-one').click(function () {
+    window.open('https://www.iol.co.za/technology/opinion-radical-racial-candour-made-possible-by-technology-of-our-times-11839543', '_blank'); 
+  });
 
   $('#tile-two').hover(function () {
     $('#tile-two-link').addClass('active-tile');
@@ -75,6 +79,11 @@ $(document).ready(function () {
       $('#tile-two-link').removeClass('active-tile');
       $('#tile-two').removeClass('bolden');
     });
+  
+  $('#tile-two').click(function () {
+    window.open('https://www.linkedin.com/posts/musa-kalenga-31b10523_dohardthings-leadership-newleadership-activity-6643077172149927936-H--u', '_blank'); 
+  });
+  
   $("#btn-play").on("click", function () {
     $('#home-header').removeClass('container');
     $('#home-header').removeClass('home-bg');
@@ -93,6 +102,10 @@ $(document).ready(function () {
     $('#home-header').addClass('home-bg');
     $('#videoBG').trigger('pause');
     $('#videoBG').removeClass('videoActive');
+  });
+
+  $('div.top-tiles-container > .musa-logo-tile').click(function () {
+    window.open('https://www.youtube.com/c/MusaKalenga/featured', '_blank');
   });
 
 
